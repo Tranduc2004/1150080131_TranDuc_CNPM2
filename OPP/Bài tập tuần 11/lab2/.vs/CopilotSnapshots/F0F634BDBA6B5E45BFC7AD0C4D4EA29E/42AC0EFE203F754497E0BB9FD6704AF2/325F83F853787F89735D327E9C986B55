@@ -1,0 +1,5 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+}
+
+@await Html.PartialAsync("~/Views/Home/DashboardContent.cshtml")

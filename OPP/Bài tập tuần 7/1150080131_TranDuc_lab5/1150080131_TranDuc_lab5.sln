@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1150080131_TranDuc_lab5", "1150080131_TranDuc_lab5\1150080131_TranDuc_lab5.csproj", "{6866065D-AA01-421D-BADB-7109160DECBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThucHanh1", "ThucHanh1\ThucHanh1.csproj", "{1A44ED4D-E5E9-44B0-8033-F61FF5B896FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6866065D-AA01-421D-BADB-7109160DECBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6866065D-AA01-421D-BADB-7109160DECBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6866065D-AA01-421D-BADB-7109160DECBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6866065D-AA01-421D-BADB-7109160DECBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A44ED4D-E5E9-44B0-8033-F61FF5B896FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A44ED4D-E5E9-44B0-8033-F61FF5B896FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A44ED4D-E5E9-44B0-8033-F61FF5B896FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A44ED4D-E5E9-44B0-8033-F61FF5B896FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0DAEFE6-165F-4E86-97CF-042197A3E5CA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\1150080131_TranDuc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|d:\\c#\\1150080131_tranduc\\1150080131_tranduc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|solutionrelative:1150080131_tranduc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|d:\\c#\\1150080131_tranduc\\1150080131_tranduc\\th11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|solutionrelative:1150080131_tranduc\\th11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|d:\\c#\\1150080131_tranduc\\1150080131_tranduc\\th10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|solutionrelative:1150080131_tranduc\\th10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|d:\\c#\\1150080131_tranduc\\1150080131_tranduc\\th9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|solutionrelative:1150080131_tranduc\\th9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|d:\\c#\\1150080131_tranduc\\1150080131_tranduc\\th8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|solutionrelative:1150080131_tranduc\\th8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|d:\\c#\\1150080131_tranduc\\1150080131_tranduc\\th7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|solutionrelative:1150080131_tranduc\\th7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|d:\\c#\\1150080131_tranduc\\1150080131_tranduc\\th6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|solutionrelative:1150080131_tranduc\\th6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|d:\\c#\\1150080131_tranduc\\1150080131_tranduc\\th5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|solutionrelative:1150080131_tranduc\\th5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|d:\\c#\\1150080131_tranduc\\1150080131_tranduc\\th4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|solutionrelative:1150080131_tranduc\\th4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|d:\\c#\\1150080131_tranduc\\1150080131_tranduc\\th2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|solutionrelative:1150080131_tranduc\\th2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|d:\\c#\\1150080131_tranduc\\1150080131_tranduc\\hinhchunhat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|solutionrelative:1150080131_tranduc\\hinhchunhat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|d:\\c#\\1150080131_tranduc\\1150080131_tranduc\\th3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D375355-8574-40E6-973F-410285281FD4}|1150080131_TranDuc\\1150080131_TranDuc.csproj|solutionrelative:1150080131_tranduc\\th3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TH11.cs",
+              "DocumentMoniker": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH11.cs",
+              "RelativeDocumentMoniker": "1150080131_TranDuc\\TH11.cs",
+              "ToolTip": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH11.cs",
+              "RelativeToolTip": "1150080131_TranDuc\\TH11.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAiwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T06:40:14.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TH10.cs",
+              "DocumentMoniker": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH10.cs",
+              "RelativeDocumentMoniker": "1150080131_TranDuc\\TH10.cs",
+              "ToolTip": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH10.cs",
+              "RelativeToolTip": "1150080131_TranDuc\\TH10.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T06:39:11.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TH9.cs",
+              "DocumentMoniker": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH9.cs",
+              "RelativeDocumentMoniker": "1150080131_TranDuc\\TH9.cs",
+              "ToolTip": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH9.cs",
+              "RelativeToolTip": "1150080131_TranDuc\\TH9.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvzAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T06:36:55.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TH8.cs",
+              "DocumentMoniker": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH8.cs",
+              "RelativeDocumentMoniker": "1150080131_TranDuc\\TH8.cs",
+              "ToolTip": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH8.cs",
+              "RelativeToolTip": "1150080131_TranDuc\\TH8.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T06:35:22.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TH7.cs",
+              "DocumentMoniker": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH7.cs",
+              "RelativeDocumentMoniker": "1150080131_TranDuc\\TH7.cs",
+              "ToolTip": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH7.cs",
+              "RelativeToolTip": "1150080131_TranDuc\\TH7.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswBgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T06:31:32.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TH6.cs",
+              "DocumentMoniker": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH6.cs",
+              "RelativeDocumentMoniker": "1150080131_TranDuc\\TH6.cs",
+              "ToolTip": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH6.cs",
+              "RelativeToolTip": "1150080131_TranDuc\\TH6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T06:28:39.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TH5.cs",
+              "DocumentMoniker": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH5.cs",
+              "RelativeDocumentMoniker": "1150080131_TranDuc\\TH5.cs",
+              "ToolTip": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH5.cs",
+              "RelativeToolTip": "1150080131_TranDuc\\TH5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T06:27:18.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TH4.cs",
+              "DocumentMoniker": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH4.cs",
+              "RelativeDocumentMoniker": "1150080131_TranDuc\\TH4.cs",
+              "ToolTip": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH4.cs",
+              "RelativeToolTip": "1150080131_TranDuc\\TH4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T06:16:59.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TH3.cs",
+              "DocumentMoniker": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH3.cs",
+              "RelativeDocumentMoniker": "1150080131_TranDuc\\TH3.cs",
+              "ToolTip": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH3.cs",
+              "RelativeToolTip": "1150080131_TranDuc\\TH3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T06:15:43.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\Program.cs",
+              "RelativeDocumentMoniker": "1150080131_TranDuc\\Program.cs",
+              "ToolTip": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\Program.cs",
+              "RelativeToolTip": "1150080131_TranDuc\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwCYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T06:10:31.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TH2.cs",
+              "DocumentMoniker": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH2.cs",
+              "RelativeDocumentMoniker": "1150080131_TranDuc\\TH2.cs",
+              "ToolTip": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\TH2.cs",
+              "RelativeToolTip": "1150080131_TranDuc\\TH2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T06:14:02.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Hinhchunhat.cs",
+              "DocumentMoniker": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\Hinhchunhat.cs",
+              "RelativeDocumentMoniker": "1150080131_TranDuc\\Hinhchunhat.cs",
+              "ToolTip": "D:\\C#\\1150080131_TranDuc\\1150080131_TranDuc\\Hinhchunhat.cs",
+              "RelativeToolTip": "1150080131_TranDuc\\Hinhchunhat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T06:12:18.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

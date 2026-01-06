@@ -1,0 +1,8 @@
+D:\C#\1150080131_TranDuc\1150080131_TranDuc\obj\Debug\1150080131_TranDuc.csproj.AssemblyReference.cache
+D:\C#\1150080131_TranDuc\1150080131_TranDuc\obj\Debug\1150080131_TranDuc.csproj.CoreCompileInputs.cache
+D:\C#\1150080131_TranDuc\1150080131_TranDuc\bin\Debug\1150080131_TranDuc.exe.config
+D:\C#\1150080131_TranDuc\1150080131_TranDuc\bin\Debug\1150080131_TranDuc.exe
+D:\C#\1150080131_TranDuc\1150080131_TranDuc\bin\Debug\1150080131_TranDuc.pdb
+D:\C#\1150080131_TranDuc\1150080131_TranDuc\obj\Debug\1150080131_TranDuc.exe
+D:\C#\1150080131_TranDuc\1150080131_TranDuc\obj\Debug\1150080131_TranDuc.pdb
+D:\C#\1150080131_TranDuc\1150080131_TranDuc\obj\Debug\1150080131_TranDuc.exe.config

@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\lab2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|d:\\c#\\lab2\\lab2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|solutionrelative:lab2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|d:\\c#\\lab2\\lab2\\views\\home\\dashboardcontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|solutionrelative:lab2\\views\\home\\dashboardcontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|d:\\c#\\lab2\\lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|solutionrelative:lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|d:\\c#\\lab2\\lab2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|solutionrelative:lab2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|d:\\c#\\lab2\\lab2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|solutionrelative:lab2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|d:\\c#\\lab2\\lab2\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|solutionrelative:lab2\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|d:\\c#\\lab2\\lab2\\lab2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|solutionrelative:lab2\\lab2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|d:\\c#\\lab2\\lab2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|solutionrelative:lab2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|d:\\c#\\lab2\\lab2\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|solutionrelative:lab2\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|d:\\c#\\lab2\\lab2\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|solutionrelative:lab2\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|d:\\c#\\lab2\\lab2\\views\\shared\\_topbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{785DCED3-D636-4D90-9B78-E9A54144AB6C}|lab2\\lab2.csproj|solutionrelative:lab2\\views\\shared\\_topbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Topbar.cshtml",
+              "DocumentMoniker": "D:\\C#\\lab2\\lab2\\Views\\Shared\\_Topbar.cshtml",
+              "RelativeDocumentMoniker": "lab2\\Views\\Shared\\_Topbar.cshtml",
+              "ToolTip": "D:\\C#\\lab2\\lab2\\Views\\Shared\\_Topbar.cshtml",
+              "RelativeToolTip": "lab2\\Views\\Shared\\_Topbar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T07:52:11.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\lab2\\lab2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "lab2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\C#\\lab2\\lab2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "lab2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T06:24:36.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Sidebar.cshtml",
+              "DocumentMoniker": "D:\\C#\\lab2\\lab2\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeDocumentMoniker": "lab2\\Views\\Shared\\_Sidebar.cshtml",
+              "ToolTip": "D:\\C#\\lab2\\lab2\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeToolTip": "lab2\\Views\\Shared\\_Sidebar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T07:51:59.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\C#\\lab2\\lab2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "lab2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\C#\\lab2\\lab2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "lab2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T07:48:01.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardContent.cshtml",
+              "DocumentMoniker": "D:\\C#\\lab2\\lab2\\Views\\Home\\DashboardContent.cshtml",
+              "RelativeDocumentMoniker": "lab2\\Views\\Home\\DashboardContent.cshtml",
+              "ToolTip": "D:\\C#\\lab2\\lab2\\Views\\Home\\DashboardContent.cshtml",
+              "RelativeToolTip": "lab2\\Views\\Home\\DashboardContent.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAIwGIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T07:38:37.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\C#\\lab2\\lab2\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "lab2\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\C#\\lab2\\lab2\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "lab2\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T07:35:42.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\C#\\lab2\\lab2\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "lab2\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\C#\\lab2\\lab2\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "lab2\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T07:34:42.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\lab2\\lab2\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "lab2\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\C#\\lab2\\lab2\\Pages\\Index.cshtml",
+              "RelativeToolTip": "lab2\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAhwEIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T07:34:38.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\lab2\\lab2\\Program.cs",
+              "RelativeDocumentMoniker": "lab2\\Program.cs",
+              "ToolTip": "D:\\C#\\lab2\\lab2\\Program.cs",
+              "RelativeToolTip": "lab2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T07:34:29.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "lab2",
+              "DocumentMoniker": "D:\\C#\\lab2\\lab2\\lab2.csproj",
+              "RelativeDocumentMoniker": "lab2\\lab2.csproj",
+              "ToolTip": "D:\\C#\\lab2\\lab2\\lab2.csproj",
+              "RelativeToolTip": "lab2\\lab2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-10T06:42:23.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\C#\\lab2\\lab2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "lab2\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\C#\\lab2\\lab2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "lab2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T06:23:47.069Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+D:\C#\1150080131_TranDuc_Lab2\Apdung2\obj\Debug\Apdung2.csproj.AssemblyReference.cache
+D:\C#\1150080131_TranDuc_Lab2\Apdung2\obj\Debug\Apdung2.Properties.Resources.resources
+D:\C#\1150080131_TranDuc_Lab2\Apdung2\obj\Debug\Apdung2.csproj.GenerateResource.cache
+D:\C#\1150080131_TranDuc_Lab2\Apdung2\obj\Debug\Apdung2.csproj.CoreCompileInputs.cache
+D:\C#\1150080131_TranDuc_Lab2\Apdung2\bin\Debug\Apdung2.exe.config
+D:\C#\1150080131_TranDuc_Lab2\Apdung2\bin\Debug\Apdung2.exe
+D:\C#\1150080131_TranDuc_Lab2\Apdung2\bin\Debug\Apdung2.pdb
+D:\C#\1150080131_TranDuc_Lab2\Apdung2\obj\Debug\Apdung2.exe
+D:\C#\1150080131_TranDuc_Lab2\Apdung2\obj\Debug\Apdung2.pdb

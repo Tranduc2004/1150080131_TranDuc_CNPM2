@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="OrganizationApp.Core/OrganizationApp.Core.csproj" Id="1b96493f-62ca-4079-a6d5-95fe2a75a6d4" />
+  <Project Path="OrganizationApp.Tests/OrganizationApp.Tests.csproj" />
+  <Project Path="OrganizationApp.WinForms/OrganizationApp.WinForms.csproj" Id="9803f9d1-c746-4b74-87f7-189c1dc3aa78" />
+</Solution>

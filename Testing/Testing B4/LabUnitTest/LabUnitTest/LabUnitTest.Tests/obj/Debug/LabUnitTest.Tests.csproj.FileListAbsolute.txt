@@ -1,0 +1,17 @@
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Tests\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Tests\bin\Debug\LabUnitTest.Tests.dll
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Tests\bin\Debug\LabUnitTest.Tests.pdb
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Tests\bin\Debug\LabUnitTest.Core.dll
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Tests\bin\Debug\LabUnitTest.Core.pdb
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Tests\obj\Debug\LabUnitTest.Tests.csproj.AssemblyReference.cache
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Tests\obj\Debug\LabUnitTest.Tests.csproj.CoreCompileInputs.cache
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Tests\obj\Debug\LabUnitT.80834C42.Up2Date
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Tests\obj\Debug\LabUnitTest.Tests.dll
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Tests\obj\Debug\LabUnitTest.Tests.pdb

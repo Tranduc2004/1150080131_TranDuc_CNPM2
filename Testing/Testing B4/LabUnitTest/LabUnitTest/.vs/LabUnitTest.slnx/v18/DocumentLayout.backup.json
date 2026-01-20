@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA4FA42-B97F-4B73-ABB2-08191C90E092}|LabUnitTest.Tests\\LabUnitTest.Tests.csproj|d:\\n\u0103m 4\\testing\\testing b4\\labunittest\\labunittest\\labunittest.tests\\polynomialtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA4FA42-B97F-4B73-ABB2-08191C90E092}|LabUnitTest.Tests\\LabUnitTest.Tests.csproj|solutionrelative:labunittest.tests\\polynomialtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA4FA42-B97F-4B73-ABB2-08191C90E092}|LabUnitTest.Tests\\LabUnitTest.Tests.csproj|d:\\n\u0103m 4\\testing\\testing b4\\labunittest\\labunittest\\labunittest.tests\\powertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA4FA42-B97F-4B73-ABB2-08191C90E092}|LabUnitTest.Tests\\LabUnitTest.Tests.csproj|solutionrelative:labunittest.tests\\powertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA4FA42-B97F-4B73-ABB2-08191C90E092}|LabUnitTest.Tests\\LabUnitTest.Tests.csproj|d:\\n\u0103m 4\\testing\\testing b4\\labunittest\\labunittest\\labunittest.tests\\radixtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA4FA42-B97F-4B73-ABB2-08191C90E092}|LabUnitTest.Tests\\LabUnitTest.Tests.csproj|solutionrelative:labunittest.tests\\radixtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA4FA42-B97F-4B73-ABB2-08191C90E092}|LabUnitTest.Tests\\LabUnitTest.Tests.csproj|d:\\n\u0103m 4\\testing\\testing b4\\labunittest\\labunittest\\labunittest.tests\\rectangletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA4FA42-B97F-4B73-ABB2-08191C90E092}|LabUnitTest.Tests\\LabUnitTest.Tests.csproj|solutionrelative:labunittest.tests\\rectangletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA4FA42-B97F-4B73-ABB2-08191C90E092}|LabUnitTest.Tests\\LabUnitTest.Tests.csproj|d:\\n\u0103m 4\\testing\\testing b4\\labunittest\\labunittest\\labunittest.tests\\scholarshiptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA4FA42-B97F-4B73-ABB2-08191C90E092}|LabUnitTest.Tests\\LabUnitTest.Tests.csproj|solutionrelative:labunittest.tests\\scholarshiptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{658039C6-2BB2-47C2-AE97-860DB5A5C190}|LabUnitTest.Core\\LabUnitTest.Core.csproj|d:\\n\u0103m 4\\testing\\testing b4\\labunittest\\labunittest\\labunittest.core\\radix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{658039C6-2BB2-47C2-AE97-860DB5A5C190}|LabUnitTest.Core\\LabUnitTest.Core.csproj|solutionrelative:labunittest.core\\radix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{658039C6-2BB2-47C2-AE97-860DB5A5C190}|LabUnitTest.Core\\LabUnitTest.Core.csproj|d:\\n\u0103m 4\\testing\\testing b4\\labunittest\\labunittest\\labunittest.core\\hocbongservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{658039C6-2BB2-47C2-AE97-860DB5A5C190}|LabUnitTest.Core\\LabUnitTest.Core.csproj|solutionrelative:labunittest.core\\hocbongservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{658039C6-2BB2-47C2-AE97-860DB5A5C190}|LabUnitTest.Core\\LabUnitTest.Core.csproj|d:\\n\u0103m 4\\testing\\testing b4\\labunittest\\labunittest\\labunittest.core\\hocvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{658039C6-2BB2-47C2-AE97-860DB5A5C190}|LabUnitTest.Core\\LabUnitTest.Core.csproj|solutionrelative:labunittest.core\\hocvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{658039C6-2BB2-47C2-AE97-860DB5A5C190}|LabUnitTest.Core\\LabUnitTest.Core.csproj|d:\\n\u0103m 4\\testing\\testing b4\\labunittest\\labunittest\\labunittest.core\\hinhchunhat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{658039C6-2BB2-47C2-AE97-860DB5A5C190}|LabUnitTest.Core\\LabUnitTest.Core.csproj|solutionrelative:labunittest.core\\hinhchunhat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{658039C6-2BB2-47C2-AE97-860DB5A5C190}|LabUnitTest.Core\\LabUnitTest.Core.csproj|d:\\n\u0103m 4\\testing\\testing b4\\labunittest\\labunittest\\labunittest.core\\diem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{658039C6-2BB2-47C2-AE97-860DB5A5C190}|LabUnitTest.Core\\LabUnitTest.Core.csproj|solutionrelative:labunittest.core\\diem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{658039C6-2BB2-47C2-AE97-860DB5A5C190}|LabUnitTest.Core\\LabUnitTest.Core.csproj|d:\\n\u0103m 4\\testing\\testing b4\\labunittest\\labunittest\\labunittest.core\\polynomial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{658039C6-2BB2-47C2-AE97-860DB5A5C190}|LabUnitTest.Core\\LabUnitTest.Core.csproj|solutionrelative:labunittest.core\\polynomial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{658039C6-2BB2-47C2-AE97-860DB5A5C190}|LabUnitTest.Core\\LabUnitTest.Core.csproj|d:\\n\u0103m 4\\testing\\testing b4\\labunittest\\labunittest\\labunittest.core\\mathex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{658039C6-2BB2-47C2-AE97-860DB5A5C190}|LabUnitTest.Core\\LabUnitTest.Core.csproj|solutionrelative:labunittest.core\\mathex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScholarshipTests.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Tests\\ScholarshipTests.cs",
+              "RelativeDocumentMoniker": "LabUnitTest.Tests\\ScholarshipTests.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Tests\\ScholarshipTests.cs",
+              "RelativeToolTip": "LabUnitTest.Tests\\ScholarshipTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:09:53.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RectangleTests.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Tests\\RectangleTests.cs",
+              "RelativeDocumentMoniker": "LabUnitTest.Tests\\RectangleTests.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Tests\\RectangleTests.cs",
+              "RelativeToolTip": "LabUnitTest.Tests\\RectangleTests.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:09:28.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RadixTests.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Tests\\RadixTests.cs",
+              "RelativeDocumentMoniker": "LabUnitTest.Tests\\RadixTests.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Tests\\RadixTests.cs",
+              "RelativeToolTip": "LabUnitTest.Tests\\RadixTests.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:07:48.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PolynomialTests.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Tests\\PolynomialTests.cs",
+              "RelativeDocumentMoniker": "LabUnitTest.Tests\\PolynomialTests.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Tests\\PolynomialTests.cs",
+              "RelativeToolTip": "LabUnitTest.Tests\\PolynomialTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:07:28.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PowerTests.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Tests\\PowerTests.cs",
+              "RelativeDocumentMoniker": "LabUnitTest.Tests\\PowerTests.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Tests\\PowerTests.cs",
+              "RelativeToolTip": "LabUnitTest.Tests\\PowerTests.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:05:33.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HocBongService.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Core\\HocBongService.cs",
+              "RelativeDocumentMoniker": "LabUnitTest.Core\\HocBongService.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Core\\HocBongService.cs",
+              "RelativeToolTip": "LabUnitTest.Core\\HocBongService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:04:35.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HocVien.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Core\\HocVien.cs",
+              "RelativeDocumentMoniker": "LabUnitTest.Core\\HocVien.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Core\\HocVien.cs",
+              "RelativeToolTip": "LabUnitTest.Core\\HocVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:03:31.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HinhChuNhat.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Core\\HinhChuNhat.cs",
+              "RelativeDocumentMoniker": "LabUnitTest.Core\\HinhChuNhat.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Core\\HinhChuNhat.cs",
+              "RelativeToolTip": "LabUnitTest.Core\\HinhChuNhat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:03:14.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Radix.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Core\\Radix.cs",
+              "RelativeDocumentMoniker": "LabUnitTest.Core\\Radix.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Core\\Radix.cs",
+              "RelativeToolTip": "LabUnitTest.Core\\Radix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:02:30.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Diem.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Core\\Diem.cs",
+              "RelativeDocumentMoniker": "LabUnitTest.Core\\Diem.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Core\\Diem.cs",
+              "RelativeToolTip": "LabUnitTest.Core\\Diem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:02:46.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Polynomial.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Core\\Polynomial.cs",
+              "RelativeDocumentMoniker": "LabUnitTest.Core\\Polynomial.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Core\\Polynomial.cs",
+              "RelativeToolTip": "LabUnitTest.Core\\Polynomial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:02:10.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MathEx.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Core\\MathEx.cs",
+              "RelativeDocumentMoniker": "LabUnitTest.Core\\MathEx.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\LabUnitTest\\LabUnitTest.Core\\MathEx.cs",
+              "RelativeToolTip": "LabUnitTest.Core\\MathEx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:01:45.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

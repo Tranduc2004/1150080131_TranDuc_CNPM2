@@ -1,0 +1,62 @@
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using OrganizationApp.Core;
+
+namespace OrganizationApp.Tests
+{
+    [TestClass]
+    public class OrganizationIntegrationTests
+    {
+        private OrganizationService _service;
+
+        [TestInitialize]
+        public void Setup()
+        {
+            _service = new OrganizationService(new OrganizationRepository());
+        }
+
+        [TestMethod]
+        public void Save_Valid_Inserts_To_DB()
+        {
+            var org = new Organization
+            {
+                OrgName = "Org_" + Guid.NewGuid(),
+                Address = "HCM",
+                Phone = "0912345678",
+                Email = "test@gmail.com"
+            };
+
+            int id = _service.Save(org);
+
+            Assert.IsTrue(id > 0);
+        }
+
+        [TestMethod]
+        public void Save_Duplicate_Name_Throws()
+        {
+            string name = "OrgDup_" + Guid.NewGuid();
+
+            _service.Save(new Organization { OrgName = name });
+            var ex = Assert.ThrowsException<ArgumentException>(() =>
+                _service.Save(new Organization { OrgName = name.ToLower() }) // test case-insensitive
+            );
+
+            Assert.AreEqual("Organization Name already exists", ex.Message);
+        }
+
+        [TestMethod]
+        public void Save_Valid_With_Null_Email_Phone_Inserts()
+        {
+            var org = new Organization
+            {
+                OrgName = "OrgNull_" + Guid.NewGuid(),
+                Address = "HCM",
+                Phone = null,
+                Email = null
+            };
+
+            int id = _service.Save(org);
+            Assert.IsTrue(id > 0);
+        }
+    }
+}

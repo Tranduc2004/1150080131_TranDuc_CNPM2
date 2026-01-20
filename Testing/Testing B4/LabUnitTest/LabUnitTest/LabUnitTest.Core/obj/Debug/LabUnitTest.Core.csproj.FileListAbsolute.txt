@@ -1,0 +1,6 @@
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Core\bin\Debug\LabUnitTest.Core.dll
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Core\bin\Debug\LabUnitTest.Core.pdb
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Core\obj\Debug\LabUnitTest.Core.csproj.AssemblyReference.cache
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Core\obj\Debug\LabUnitTest.Core.csproj.CoreCompileInputs.cache
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Core\obj\Debug\LabUnitTest.Core.dll
+D:\Năm 4\Testing\Testing B4\LabUnitTest\LabUnitTest\LabUnitTest.Core\obj\Debug\LabUnitTest.Core.pdb

@@ -1,0 +1,167 @@
+﻿namespace OrganizationApp.WinForms
+{
+    partial class OrganizationForm
+    {
+        private System.ComponentModel.IContainer components = null;
+
+        private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.Label lblOrgName;
+        private System.Windows.Forms.Label lblAddress;
+        private System.Windows.Forms.Label lblPhone;
+        private System.Windows.Forms.Label lblEmail;
+
+        private System.Windows.Forms.TextBox txtOrgName;
+        private System.Windows.Forms.TextBox txtAddress;
+        private System.Windows.Forms.TextBox txtPhone;
+        private System.Windows.Forms.TextBox txtEmail;
+
+        private System.Windows.Forms.ErrorProvider errorProvider1;
+
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Button btnDirector;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+                components.Dispose();
+            base.Dispose(disposing);
+        }
+
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.lblOrgName = new System.Windows.Forms.Label();
+            this.lblAddress = new System.Windows.Forms.Label();
+            this.lblPhone = new System.Windows.Forms.Label();
+            this.lblEmail = new System.Windows.Forms.Label();
+
+            this.txtOrgName = new System.Windows.Forms.TextBox();
+            this.txtAddress = new System.Windows.Forms.TextBox();
+            this.txtPhone = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.btnDirector = new System.Windows.Forms.Button();
+
+            this.SuspendLayout();
+
+            // Form
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(560, 360);
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Organization";
+
+            // errorProvider1
+            this.errorProvider1.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
+            this.errorProvider1.ContainerControl = this;
+
+            // lblTitle
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
+            this.lblTitle.Location = new System.Drawing.Point(18, 16);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(232, 25);
+            this.lblTitle.Text = "Organization Information";
+
+            // lblOrgName
+            this.lblOrgName.AutoSize = true;
+            this.lblOrgName.Location = new System.Drawing.Point(22, 70);
+            this.lblOrgName.Name = "lblOrgName";
+            this.lblOrgName.Size = new System.Drawing.Size(126, 15);
+            this.lblOrgName.Text = "Organization Name *";
+
+            // txtOrgName
+            this.txtOrgName.Location = new System.Drawing.Point(170, 66);
+            this.txtOrgName.Name = "txtOrgName";
+            this.txtOrgName.Size = new System.Drawing.Size(360, 23);
+            this.txtOrgName.TabIndex = 0;
+
+            // lblAddress
+            this.lblAddress.AutoSize = true;
+            this.lblAddress.Location = new System.Drawing.Point(22, 110);
+            this.lblAddress.Name = "lblAddress";
+            this.lblAddress.Size = new System.Drawing.Size(49, 15);
+            this.lblAddress.Text = "Address";
+
+            // txtAddress
+            this.txtAddress.Location = new System.Drawing.Point(170, 106);
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(360, 23);
+            this.txtAddress.TabIndex = 1;
+
+            // lblPhone
+            this.lblPhone.AutoSize = true;
+            this.lblPhone.Location = new System.Drawing.Point(22, 150);
+            this.lblPhone.Name = "lblPhone";
+            this.lblPhone.Size = new System.Drawing.Size(41, 15);
+            this.lblPhone.Text = "Phone";
+
+            // txtPhone
+            this.txtPhone.Location = new System.Drawing.Point(170, 146);
+            this.txtPhone.Name = "txtPhone";
+            this.txtPhone.Size = new System.Drawing.Size(360, 23);
+            this.txtPhone.TabIndex = 2;
+
+            // lblEmail
+            this.lblEmail.AutoSize = true;
+            this.lblEmail.Location = new System.Drawing.Point(22, 190);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(36, 15);
+            this.lblEmail.Text = "Email";
+
+            // txtEmail
+            this.txtEmail.Location = new System.Drawing.Point(170, 186);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(360, 23);
+            this.txtEmail.TabIndex = 3;
+
+            // btnSave
+            this.btnSave.Location = new System.Drawing.Point(170, 245);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(90, 30);
+            this.btnSave.TabIndex = 4;
+            this.btnSave.Text = "Save";
+            this.btnSave.UseVisualStyleBackColor = true;
+
+            // btnBack
+            this.btnBack.Location = new System.Drawing.Point(270, 245);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(90, 30);
+            this.btnBack.TabIndex = 5;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = true;
+
+            // btnDirector
+            this.btnDirector.Location = new System.Drawing.Point(370, 245);
+            this.btnDirector.Name = "btnDirector";
+            this.btnDirector.Size = new System.Drawing.Size(160, 30);
+            this.btnDirector.TabIndex = 6;
+            this.btnDirector.Text = "Director";
+            this.btnDirector.UseVisualStyleBackColor = true;
+            this.btnDirector.Enabled = false; // disable ban đầu
+
+            // Add Controls
+            this.Controls.Add(this.lblTitle);
+            this.Controls.Add(this.lblOrgName);
+            this.Controls.Add(this.txtOrgName);
+            this.Controls.Add(this.lblAddress);
+            this.Controls.Add(this.txtAddress);
+            this.Controls.Add(this.lblPhone);
+            this.Controls.Add(this.txtPhone);
+            this.Controls.Add(this.lblEmail);
+            this.Controls.Add(this.txtEmail);
+
+            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.btnBack);
+            this.Controls.Add(this.btnDirector);
+
+            this.ResumeLayout(false);
+            this.PerformLayout();
+        }
+    }
+}

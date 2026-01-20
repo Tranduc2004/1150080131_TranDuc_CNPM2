@@ -1,0 +1,12 @@
+D:\Năm 4\Testing\Testing B4\LabUnitTest\OrganizationApp\OrganizationApp.WinForms\bin\Debug\OrganizationApp.WinForms.exe.config
+D:\Năm 4\Testing\Testing B4\LabUnitTest\OrganizationApp\OrganizationApp.WinForms\bin\Debug\OrganizationApp.WinForms.exe
+D:\Năm 4\Testing\Testing B4\LabUnitTest\OrganizationApp\OrganizationApp.WinForms\bin\Debug\OrganizationApp.WinForms.pdb
+D:\Năm 4\Testing\Testing B4\LabUnitTest\OrganizationApp\OrganizationApp.WinForms\bin\Debug\OrganizationApp.Core.dll
+D:\Năm 4\Testing\Testing B4\LabUnitTest\OrganizationApp\OrganizationApp.WinForms\bin\Debug\OrganizationApp.Core.pdb
+D:\Năm 4\Testing\Testing B4\LabUnitTest\OrganizationApp\OrganizationApp.WinForms\obj\Debug\OrganizationApp.WinForms.csproj.AssemblyReference.cache
+D:\Năm 4\Testing\Testing B4\LabUnitTest\OrganizationApp\OrganizationApp.WinForms\obj\Debug\OrganizationApp.WinForms.Properties.Resources.resources
+D:\Năm 4\Testing\Testing B4\LabUnitTest\OrganizationApp\OrganizationApp.WinForms\obj\Debug\OrganizationApp.WinForms.csproj.GenerateResource.cache
+D:\Năm 4\Testing\Testing B4\LabUnitTest\OrganizationApp\OrganizationApp.WinForms\obj\Debug\OrganizationApp.WinForms.csproj.CoreCompileInputs.cache
+D:\Năm 4\Testing\Testing B4\LabUnitTest\OrganizationApp\OrganizationApp.WinForms\obj\Debug\Organiza.6BC49216.Up2Date
+D:\Năm 4\Testing\Testing B4\LabUnitTest\OrganizationApp\OrganizationApp.WinForms\obj\Debug\OrganizationApp.WinForms.exe
+D:\Năm 4\Testing\Testing B4\LabUnitTest\OrganizationApp\OrganizationApp.WinForms\obj\Debug\OrganizationApp.WinForms.pdb

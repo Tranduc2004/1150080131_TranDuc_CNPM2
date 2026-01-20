@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97CB4778-DAAE-304F-51D2-46B6E3E74D6F}|OrganizationApp.Tests\\OrganizationApp.Tests.csproj|d:\\n\u0103m 4\\testing\\testing b4\\labunittest\\organizationapp\\organizationapp.tests\\organizationintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97CB4778-DAAE-304F-51D2-46B6E3E74D6F}|OrganizationApp.Tests\\OrganizationApp.Tests.csproj|solutionrelative:organizationapp.tests\\organizationintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97CB4778-DAAE-304F-51D2-46B6E3E74D6F}|OrganizationApp.Tests\\OrganizationApp.Tests.csproj|d:\\n\u0103m 4\\testing\\testing b4\\labunittest\\organizationapp\\organizationapp.tests\\organizationapp.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{97CB4778-DAAE-304F-51D2-46B6E3E74D6F}|OrganizationApp.Tests\\OrganizationApp.Tests.csproj|solutionrelative:organizationapp.tests\\organizationapp.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97CB4778-DAAE-304F-51D2-46B6E3E74D6F}|OrganizationApp.Tests\\OrganizationApp.Tests.csproj|d:\\n\u0103m 4\\testing\\testing b4\\labunittest\\organizationapp\\organizationapp.tests\\organizationserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97CB4778-DAAE-304F-51D2-46B6E3E74D6F}|OrganizationApp.Tests\\OrganizationApp.Tests.csproj|solutionrelative:organizationapp.tests\\organizationserviceunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97CB4778-DAAE-304F-51D2-46B6E3E74D6F}|OrganizationApp.Tests\\OrganizationApp.Tests.csproj|d:\\n\u0103m 4\\testing\\testing b4\\labunittest\\organizationapp\\organizationapp.tests\\fakeorganizationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97CB4778-DAAE-304F-51D2-46B6E3E74D6F}|OrganizationApp.Tests\\OrganizationApp.Tests.csproj|solutionrelative:organizationapp.tests\\fakeorganizationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B96493F-62CA-4079-A6D5-95FE2A75A6D4}|OrganizationApp.Core\\OrganizationApp.Core.csproj|D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Core\\OrganizationRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B96493F-62CA-4079-A6D5-95FE2A75A6D4}|OrganizationApp.Core\\OrganizationApp.Core.csproj|solutionrelative:OrganizationApp.Core\\OrganizationRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B96493F-62CA-4079-A6D5-95FE2A75A6D4}|OrganizationApp.Core\\OrganizationApp.Core.csproj|D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Core\\Organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B96493F-62CA-4079-A6D5-95FE2A75A6D4}|OrganizationApp.Core\\OrganizationApp.Core.csproj|solutionrelative:OrganizationApp.Core\\Organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9803F9D1-C746-4B74-87F7-189C1DC3AA78}|OrganizationApp.WinForms\\OrganizationApp.WinForms.csproj|D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\OrganizationForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9803F9D1-C746-4B74-87F7-189C1DC3AA78}|OrganizationApp.WinForms\\OrganizationApp.WinForms.csproj|solutionrelative:OrganizationApp.WinForms\\OrganizationForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9803F9D1-C746-4B74-87F7-189C1DC3AA78}|OrganizationApp.WinForms\\OrganizationApp.WinForms.csproj|D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\OrganizationForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9803F9D1-C746-4B74-87F7-189C1DC3AA78}|OrganizationApp.WinForms\\OrganizationApp.WinForms.csproj|solutionrelative:OrganizationApp.WinForms\\OrganizationForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9803F9D1-C746-4B74-87F7-189C1DC3AA78}|OrganizationApp.WinForms\\OrganizationApp.WinForms.csproj|D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\organizationapp.winforms\\organizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9803F9D1-C746-4B74-87F7-189C1DC3AA78}|OrganizationApp.WinForms\\OrganizationApp.WinForms.csproj|solutionrelative:organizationapp.winforms\\organizationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9803F9D1-C746-4B74-87F7-189C1DC3AA78}|OrganizationApp.WinForms\\OrganizationApp.WinForms.csproj|D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9803F9D1-C746-4B74-87F7-189C1DC3AA78}|OrganizationApp.WinForms\\OrganizationApp.WinForms.csproj|solutionrelative:OrganizationApp.WinForms\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9803F9D1-C746-4B74-87F7-189C1DC3AA78}|OrganizationApp.WinForms\\OrganizationApp.WinForms.csproj|D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\DirectorForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9803F9D1-C746-4B74-87F7-189C1DC3AA78}|OrganizationApp.WinForms\\OrganizationApp.WinForms.csproj|solutionrelative:OrganizationApp.WinForms\\DirectorForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B96493F-62CA-4079-A6D5-95FE2A75A6D4}|OrganizationApp.Core\\OrganizationApp.Core.csproj|D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Core\\OrganizationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B96493F-62CA-4079-A6D5-95FE2A75A6D4}|OrganizationApp.Core\\OrganizationApp.Core.csproj|solutionrelative:OrganizationApp.Core\\OrganizationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9803F9D1-C746-4B74-87F7-189C1DC3AA78}|OrganizationApp.WinForms\\OrganizationApp.WinForms.csproj|D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\DirectorForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9803F9D1-C746-4B74-87F7-189C1DC3AA78}|OrganizationApp.WinForms\\OrganizationApp.WinForms.csproj|solutionrelative:OrganizationApp.WinForms\\DirectorForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9803F9D1-C746-4B74-87F7-189C1DC3AA78}|OrganizationApp.WinForms\\OrganizationApp.WinForms.csproj|D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\organizationapp.winforms\\directorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9803F9D1-C746-4B74-87F7-189C1DC3AA78}|OrganizationApp.WinForms\\OrganizationApp.WinForms.csproj|solutionrelative:organizationapp.winforms\\directorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9803F9D1-C746-4B74-87F7-189C1DC3AA78}|OrganizationApp.WinForms\\OrganizationApp.WinForms.csproj|D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9803F9D1-C746-4B74-87F7-189C1DC3AA78}|OrganizationApp.WinForms\\OrganizationApp.WinForms.csproj|solutionrelative:OrganizationApp.WinForms\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B96493F-62CA-4079-A6D5-95FE2A75A6D4}|OrganizationApp.Core\\OrganizationApp.Core.csproj|D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Core\\Db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B96493F-62CA-4079-A6D5-95FE2A75A6D4}|OrganizationApp.Core\\OrganizationApp.Core.csproj|solutionrelative:OrganizationApp.Core\\Db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9803F9D1-C746-4B74-87F7-189C1DC3AA78}|OrganizationApp.WinForms\\OrganizationApp.WinForms.csproj|D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\organizationapp.winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9803F9D1-C746-4B74-87F7-189C1DC3AA78}|OrganizationApp.WinForms\\OrganizationApp.WinForms.csproj|solutionrelative:organizationapp.winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrganizationApp.Tests",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Tests\\OrganizationApp.Tests.csproj",
+              "RelativeDocumentMoniker": "OrganizationApp.Tests\\OrganizationApp.Tests.csproj",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Tests\\OrganizationApp.Tests.csproj",
+              "RelativeToolTip": "OrganizationApp.Tests\\OrganizationApp.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-20T08:36:46.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrganizationIntegrationTests.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Tests\\OrganizationIntegrationTests.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.Tests\\OrganizationIntegrationTests.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Tests\\OrganizationIntegrationTests.cs",
+              "RelativeToolTip": "OrganizationApp.Tests\\OrganizationIntegrationTests.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAArwBcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T08:19:51.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrganizationServiceUnitTests.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Tests\\OrganizationServiceUnitTests.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.Tests\\OrganizationServiceUnitTests.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Tests\\OrganizationServiceUnitTests.cs",
+              "RelativeToolTip": "OrganizationApp.Tests\\OrganizationServiceUnitTests.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAALYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T08:18:09.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FakeOrganizationRepository.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Tests\\FakeOrganizationRepository.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.Tests\\FakeOrganizationRepository.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Tests\\FakeOrganizationRepository.cs",
+              "RelativeToolTip": "OrganizationApp.Tests\\FakeOrganizationRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAABBwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T08:16:29.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrganizationRepository.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Core\\OrganizationRepository.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.Core\\OrganizationRepository.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Core\\OrganizationRepository.cs",
+              "RelativeToolTip": "OrganizationApp.Core\\OrganizationRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAABQwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T08:10:38.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Organization.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Core\\Organization.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.Core\\Organization.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Core\\Organization.cs",
+              "RelativeToolTip": "OrganizationApp.Core\\Organization.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T08:10:28.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrganizationForm.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\OrganizationForm.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.WinForms\\OrganizationForm.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\OrganizationForm.cs",
+              "RelativeToolTip": "OrganizationApp.WinForms\\OrganizationForm.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAADwv1kAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:56:52.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrganizationForm.Designer.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\OrganizationForm.Designer.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.WinForms\\OrganizationForm.Designer.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\OrganizationForm.Designer.cs",
+              "RelativeToolTip": "OrganizationApp.WinForms\\OrganizationForm.Designer.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAiwKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:55:35.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrganizationForm.cs [Design]",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\OrganizationForm.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.WinForms\\OrganizationForm.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\OrganizationForm.cs [Design]",
+              "RelativeToolTip": "OrganizationApp.WinForms\\OrganizationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:55:32.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\Program.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.WinForms\\Program.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\Program.cs",
+              "RelativeToolTip": "OrganizationApp.WinForms\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:52:07.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DirectorForm.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\DirectorForm.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.WinForms\\DirectorForm.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\DirectorForm.cs",
+              "RelativeToolTip": "OrganizationApp.WinForms\\DirectorForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:51:53.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrganizationService.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Core\\OrganizationService.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.Core\\OrganizationService.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Core\\OrganizationService.cs",
+              "RelativeToolTip": "OrganizationApp.Core\\OrganizationService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T08:11:19.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DirectorForm.Designer.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\DirectorForm.Designer.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.WinForms\\DirectorForm.Designer.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\DirectorForm.Designer.cs",
+              "RelativeToolTip": "OrganizationApp.WinForms\\DirectorForm.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwv0AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:58:39.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DirectorForm.cs [Design]",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\DirectorForm.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.WinForms\\DirectorForm.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\DirectorForm.cs [Design]",
+              "RelativeToolTip": "OrganizationApp.WinForms\\DirectorForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:51:41.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\Form1.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.WinForms\\Form1.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\Form1.cs",
+              "RelativeToolTip": "OrganizationApp.WinForms\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:40:24.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Db.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Core\\Db.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.Core\\Db.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.Core\\Db.cs",
+              "RelativeToolTip": "OrganizationApp.Core\\Db.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:40:04.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\Form1.cs",
+              "RelativeDocumentMoniker": "OrganizationApp.WinForms\\Form1.cs",
+              "ToolTip": "D:\\N\u0103m 4\\Testing\\Testing B4\\LabUnitTest\\OrganizationApp\\OrganizationApp.WinForms\\Form1.cs [Design]",
+              "RelativeToolTip": "OrganizationApp.WinForms\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:39:13.071Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

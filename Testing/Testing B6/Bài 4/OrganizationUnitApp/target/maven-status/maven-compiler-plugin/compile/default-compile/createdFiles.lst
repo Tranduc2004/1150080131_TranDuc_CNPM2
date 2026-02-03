@@ -1,0 +1,7 @@
+fploy\dao\DatabaseConnection.class
+fploy\model\Organization.class
+fploy\ui\MainApp.class
+fploy\dao\OrganizationUnitDAO.class
+fploy\model\OrganizationUnit.class
+fploy\ui\AddOrganizationUnitForm.class
+fploy\dao\OrganizationDAO.class

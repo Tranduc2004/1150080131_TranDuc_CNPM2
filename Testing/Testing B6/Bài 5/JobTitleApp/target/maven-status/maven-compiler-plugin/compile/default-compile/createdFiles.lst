@@ -1,0 +1,5 @@
+fploy\ui\AddJobTitleForm.class
+fploy\ui\MainApp.class
+fploy\dao\JobTitleDAO.class
+fploy\db\DatabaseConnection.class
+fploy\model\JobTitle.class

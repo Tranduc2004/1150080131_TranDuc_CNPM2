@@ -1,0 +1,266 @@
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║                    ✨ BÀI 4 - HOÀN THÀNH ✨                       ║
+║                                                                    ║
+║              Thiết Kế Test Case cho Form Add Organization Unit     ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
+
+📂 THƯ MỰC: d:\Năm 4\Testing\Testing B6\Bài 4\
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 DANH SÁCH TỆP TIN (7 files)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ 1. create_database.sql          (SQL Script - 45 dòng)
+   └─ Tạo database, bảng, dữ liệu mẫu
+   └─ 👉 CHẠY ĐẦU TIÊN!
+
+✅ 2. TEST_CASE_DOCUMENT.md        (10 Test Case)
+   └─ TC_001: Thêm mới hợp lệ (✅ Positive)
+   └─ TC_002-007, 009: Validation tests (❌ Negative)
+   └─ TC_008: Thêm với Description (✅ Positive)
+   └─ TC_010: Click Cancel (🔄 Functional)
+   └─ Mỗi TC có tiền điều kiện, bước, kết quả
+
+✅ 3. HUONG_DAN_SQL.md             (Hướng Dẫn Chạy SQL)
+   └─ 5 cách chạy SQL:
+   ├─ MySQL Command Line
+   ├─ Chạy lệnh trực tiếp
+   ├─ MySQL Workbench
+   ├─ phpMyAdmin
+   └─ Tạo manual từng lệnh
+   └─ Troubleshooting
+
+✅ 4. BAI4_SUMMARY.md              (Tóm Tắt Bài)
+   └─ Thông tin chung
+   └─ Cấu trúc database
+   └─ 10 test case
+   └─ Kiểm tra nội dung
+
+✅ 5. BANG_TOM_TAT.md              (Bảng & Báo Cáo)
+   └─ Bảng thông tin chung
+   └─ Cấu trúc database (diagram)
+   └─ Danh sách test case
+   └─ Mẫu bảng báo cáo test
+   └─ Mẫu bảng tóm tắt lỗi
+
+✅ 6. README.md                    (Index & Hướng Dẫn)
+   └─ Hướng dẫn sử dụng nhanh
+   └─ Copy-paste SQL script
+   └─ Chi tiết từng file
+   └─ Tìm kiếm nhanh
+   └─ Checklist hoàn thành
+
+✅ 7. COMPLETED.md                 (File Hoàn Thành - này!)
+   └─ Tóm tắt hoàn thành
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🗄️ DATABASE SCHEMA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Tên Database: lab6_testing
+
+Bảng 1: organization (3 tổ chức mẫu)
+  ├─ org_id (INT, PK, Auto Increment)
+  ├─ org_name (VARCHAR 255, UNIQUE)
+  ├─ org_description (TEXT)
+  ├─ created_date (TIMESTAMP)
+  └─ updated_date (TIMESTAMP)
+
+Bảng 2: organization_unit (3 đơn vị mẫu)
+  ├─ unit_id (VARCHAR 50, PK)
+  ├─ unit_name (VARCHAR 255, NOT NULL)
+  ├─ unit_description (TEXT)
+  ├─ org_id (INT, FK)
+  ├─ created_date (TIMESTAMP)
+  └─ updated_date (TIMESTAMP)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 TEST CASES (10 Test Case)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ POSITIVE TESTING (2 TC)
+  ├─ TC_001: Thêm mới với dữ liệu hợp lệ (High)
+  └─ TC_008: Thêm với Description đầy đủ (Medium)
+
+❌ NEGATIVE TESTING (7 TC)
+  ├─ TC_002: Unit Id bỏ trống (High)
+  ├─ TC_003: Name bỏ trống (High)
+  ├─ TC_004: Organization không chọn (High)
+  ├─ TC_005: Unit Id đã tồn tại (High)
+  ├─ TC_006: Unit Id ký tự đặc biệt (Medium)
+  ├─ TC_007: Name vượt quá độ dài (Medium)
+  └─ TC_009: Unit Id khoảng trắng (Low)
+
+🔄 FUNCTIONAL TESTING (1 TC)
+  └─ TC_010: Click nút Cancel (High)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 MỨC ĐỘ ƯU TIÊN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔴 High (6 TC):      TC_001, TC_002, TC_003, TC_004, TC_005, TC_010
+🟠 Medium (3 TC):    TC_006, TC_007, TC_008
+🟡 Low (1 TC):       TC_009
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 CÁCH SỬ DỤNG (4 BƯỚC)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BƯỚC 1️⃣: TẠO DATABASE
+  └─ Copy lệnh SQL từ create_database.sql
+  └─ Chạy trên MySQL Server
+  └─ Chi tiết: Xem HUONG_DAN_SQL.md
+
+BƯỚC 2️⃣: ĐỌC TEST CASE
+  └─ Mở TEST_CASE_DOCUMENT.md
+  └─ Hiểu rõ 10 test case
+  └─ Mỗi TC có: tiền điều kiện, bước, kết quả
+
+BƯỚC 3️⃣: THỰC HIỆN TEST
+  └─ Tìm form "Add Organization Unit"
+  └─ Chạy từng test case
+  └─ Ghi lại: PASS hoặc FAIL
+  └─ Báo cáo lỗi
+
+BƯỚC 4️⃣: LẬP BÁO CÁO
+  └─ Mở BANG_TOM_TAT.md
+  └─ Điền bảng báo cáo test
+  └─ Điền bảng tóm tắt lỗi
+  └─ Tính tỷ lệ pass/fail
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ CHECKLIST HOÀN THÀNH
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Form có kết nối với cơ sở dữ liệu
+   └─ Database: lab6_testing
+   └─ 2 bảng: organization, organization_unit
+   └─ Foreign Key: unit.org_id → organization.org_id
+
+✅ Có kịch bản kiểm thử rõ ràng
+   └─ 10 test case chi tiết
+   └─ Mỗi TC: tiền điều kiện + bước + kết quả
+   └─ Dễ hiểu, dễ tái lập
+
+✅ Test case phủ tất cả trường hợp
+   └─ Positive Testing: 2 TC
+   └─ Negative Testing: 7 TC
+   └─ Functional Testing: 1 TC
+   └─ Boundary, Format, Duplicate, Validation...
+
+✅ Bảng báo cáo, tóm tắt lỗi rõ ràng
+   └─ Mẫu bảng báo cáo test
+   └─ Mẫu bảng tóm tắt lỗi
+   └─ Template dễ điền
+   └─ Công thức tính tỷ lệ pass/fail
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 SQL SCRIPT (Copy & Chạy)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CREATE DATABASE IF NOT EXISTS lab6_testing;
+USE lab6_testing;
+
+CREATE TABLE IF NOT EXISTS organization (
+    org_id INT PRIMARY KEY AUTO_INCREMENT,
+    org_name VARCHAR(255) NOT NULL UNIQUE,
+    org_description TEXT,
+    created_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS organization_unit (
+    unit_id VARCHAR(50) PRIMARY KEY,
+    unit_name VARCHAR(255) NOT NULL,
+    unit_description TEXT,
+    org_id INT NOT NULL,
+    created_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (org_id) REFERENCES organization(org_id) ON DELETE CASCADE
+);
+
+INSERT INTO organization (org_name, org_description) VALUES
+('FPoly', 'FPT Polytechnic - Cơ sở đào tạo'),
+('Microsoft', 'Microsoft Corporation'),
+('Google', 'Google LLC');
+
+INSERT INTO organization_unit (unit_id, unit_name, unit_description, org_id) VALUES
+('IT001', 'IT Department', 'Phòng IT', 1),
+('HR001', 'Human Resource', 'Phòng Nhân sự', 1),
+('ACC001', 'Accounting', 'Phòng Kế toán', 1);
+
+SELECT * FROM organization;
+SELECT * FROM organization_unit;
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎓 KẾT LUẬN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BÀI 4 ĐÃ HOÀN THÀNH ĐẦY ĐỦ:
+
+✨ 7 file tài liệu test toàn diện
+✨ 10 test case bao phủ tất cả trường hợp
+✨ Database đã tạo, có dữ liệu mẫu
+✨ Hướng dẫn chi tiết, dễ tái lập
+✨ Bảng báo cáo sẵn sàng
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 KHUYẾN NGHỊ
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ Nên chạy toàn bộ 10 test case
+✓ Nên kiểm tra cả database lẫn UI
+✓ Nên ghi chi tiết từng bước
+✓ Nên báo cáo lỗi rõ ràng
+✓ Nên tính toán tỷ lệ pass/fail chính xác
+✓ Nên in hoặc xuất PDF các tài liệu
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📞 THAM KHẢO NHANH
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Muốn...?                          Xem file...
+────────────────────────────────────────────────────────────────
+🔧 Tạo database                   → create_database.sql
+📋 Xem chi tiết 10 test case      → TEST_CASE_DOCUMENT.md
+📚 Hướng dẫn chạy SQL             → HUONG_DAN_SQL.md
+📝 Tóm tắt nhanh                  → BAI4_SUMMARY.md
+📊 Bảng báo cáo & mẫu             → BANG_TOM_TAT.md
+📖 Index & hướng dẫn              → README.md
+🎉 Hoàn thành & tóm tắt           → COMPLETED.md (File này)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📂 TESTING B6 - TOÀN BỘ HOÀN THÀNH
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Bài 1: JUnitMessage.java & AirthematicTest.java
+✅ Bài 2: Person.java, PersonTest.java (3 cách kiểm test)
+✅ Bài 3: ErrorCollectorExample.java & TestRunner.java
+✅ Bài 4: 7 file tài liệu test toàn diện
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎊 100% HOÀN THÀNH 🎊
+
+Ngày: 03/02/2026
+Phiên bản: 1.0
+Trạng thái: ✅ COMPLETE
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+╔════════════════════════════════════════════════════════════════════╗
+║                   ✨ Cảm ơn đã sử dụng! ✨                        ║
+╚════════════════════════════════════════════════════════════════════╝

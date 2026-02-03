@@ -1,0 +1,6 @@
+fploy\model\User.class
+fploy\ui\UserManagementForm$1.class
+fploy\dao\UserDAO.class
+fploy\ui\MainApp.class
+fploy\ui\UserManagementForm.class
+fploy\db\DatabaseConnection.class

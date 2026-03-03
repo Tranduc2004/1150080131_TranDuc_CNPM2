@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="BT2.2 Submission Suite" verbose="1">
+    <test name="DangNhap DataProvider + Fail Demo">
+        <classes>
+            <class name="dtm.tests.TC_DangNhapTest"/>
+            <class name="dtm.tests.TC_DangNhapFailDemoTest"/>
+        </classes>
+    </test>
+</suite>

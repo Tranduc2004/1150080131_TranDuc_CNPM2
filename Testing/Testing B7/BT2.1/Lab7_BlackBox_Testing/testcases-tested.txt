@@ -1,0 +1,38 @@
+Lab7_BlackBox_Testing - Danh sách test case đã chạy
+Thời gian chạy suite: 2026-03-03 14:48:02 -> 14:48:19 (ICT)
+Lệnh chạy: mvn test -q
+Kết quả tổng: total=8, passed=8, failed=0, skipped=0
+
+Chi tiết test case đã chạy:
+
+1) dtm.tests.TC_DangNhapTest.testDangNhap
+   - Data: username=standard_user, password=secret_sauce, expectedSuccess=true
+   - Status: PASS
+
+2) dtm.tests.TC_DangNhapTest.testDangNhap
+   - Data: username=locked_out_user, password=secret_sauce, expectedSuccess=false
+   - Status: PASS
+
+3) dtm.tests.TC_DangNhapTest.testDangNhap
+   - Data: username=standard_user, password=wrong_password, expectedSuccess=false
+   - Status: PASS
+
+4) dtm.tests.TC_DangNhapTest.testDangNhap
+   - Data: username="", password="", expectedSuccess=false
+   - Status: PASS
+
+5) dtm.tests.TC_GioHangTest.testThemSanPhamVaoGio
+   - Data: productName=Sauce Labs Backpack
+   - Status: PASS
+
+6) dtm.tests.TC_GioHangTest.testThemSanPhamVaoGio
+   - Data: productName=Sauce Labs Bike Light
+   - Status: PASS
+
+7) dtm.tests.TC_TimKiemTest.testTimKiemSanPhamTonTaiTrongDanhSach
+   - Data: (không dùng DataProvider)
+   - Status: PASS
+
+8) dtm.tests.TC_CheckoutTest.testCheckoutThanhCong
+   - Data: (không dùng DataProvider)
+   - Status: PASS

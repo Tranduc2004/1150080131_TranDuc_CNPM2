@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods, 1 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="dtm.tests.TC_GioHangCheckoutE2ETest" class="method navigator-link" hash-for-method="finishVaBackHomeResetGio">finishVaBackHomeResetGio</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="dtm.tests.TC_GioHangCheckoutE2ETest" class="method navigator-link" hash-for-method="cancelTaiStepHai">cancelTaiStepHai</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="dtm.tests.TC_GioHangCheckoutE2ETest" class="method navigator-link" hash-for-method="cancelTaiStepMot">cancelTaiStepMot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="dtm.tests.TC_GioHangCheckoutE2ETest" class="method navigator-link" hash-for-method="checkoutDayDuSangStepHai">checkoutDayDuSangStepHai</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="dtm.tests.TC_GioHangCheckoutE2ETest" class="method navigator-link" hash-for-method="checkoutThieuFirstName">checkoutThieuFirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="dtm.tests.TC_GioHangCheckoutE2ETest" class="method navigator-link" hash-for-method="checkoutThieuLastName">checkoutThieuLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="dtm.tests.TC_GioHangCheckoutE2ETest" class="method navigator-link" hash-for-method="checkoutThieuPostalCode">checkoutThieuPostalCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="dtm.tests.TC_GioHangCheckoutE2ETest" class="method navigator-link" hash-for-method="quanSatProblemUserFlow">quanSatProblemUserFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="dtm.tests.TC_GioHangCheckoutE2ETest" class="method navigator-link" hash-for-method="sortGiaGiamDan">sortGiaGiamDan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="dtm.tests.TC_GioHangCheckoutE2ETest" class="method navigator-link" hash-for-method="sortGiaTangDan">sortGiaTangDan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="dtm.tests.TC_GioHangCheckoutE2ETest" class="method navigator-link" hash-for-method="sortTenAZ">sortTenAZ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="dtm.tests.TC_GioHangCheckoutE2ETest" class="method navigator-link" hash-for-method="sortTenZA">sortTenZA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="dtm.tests.TC_GioHangCheckoutE2ETest" class="method navigator-link" hash-for-method="them3SanPham">them3SanPham</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="dtm.tests.TC_GioHangCheckoutE2ETest" class="method navigator-link" hash-for-method="themMotSanPham">themMotSanPham</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="dtm.tests.TC_GioHangCheckoutE2ETest" class="method navigator-link" hash-for-method="verifyShippingInfo">verifyShippingInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="dtm.tests.TC_GioHangCheckoutE2ETest" class="method navigator-link" hash-for-method="verifyTinhTienHaiSanPham">verifyTinhTienHaiSanPham</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="dtm.tests.TC_GioHangCheckoutE2ETest" class="method navigator-link" hash-for-method="xoaHetSanPham">xoaHetSanPham</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">dtm.tests.TC_GioHangCheckoutE2ETest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="finishVaBackHomeResetGio">
+                  </a> <!-- finishVaBackHomeResetGio -->
+                  <span class="method-name">finishVaBackHomeResetGio</span>
+                  <div class="stack-trace">java.lang.AssertionError: Không mở được step one. expected [true] but found [false]
+	at dtm.tests.TC_GioHangCheckoutE2ETest.vaoCheckoutStepOneVoiMotSanPham(TC_GioHangCheckoutE2ETest.java:189)
+	at dtm.tests.TC_GioHangCheckoutE2ETest.vaoCheckoutStepTwoVoiMotSanPham(TC_GioHangCheckoutE2ETest.java:193)
+	at dtm.tests.TC_GioHangCheckoutE2ETest.finishVaBackHomeResetGio(TC_GioHangCheckoutE2ETest.java:163)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC_CHK_009: Finish và Back Home reset badge)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dtm.tests.TC_GioHangCheckoutE2ETest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelTaiStepHai">
+                  </a> <!-- cancelTaiStepHai -->
+                  <span class="method-name">cancelTaiStepHai</span>
+                  <em>
+(TC_CHK_008: Cancel ở step 2)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelTaiStepMot">
+                  </a> <!-- cancelTaiStepMot -->
+                  <span class="method-name">cancelTaiStepMot</span>
+                  <em>
+(TC_CHK_007: Cancel ở step 1)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutDayDuSangStepHai">
+                  </a> <!-- checkoutDayDuSangStepHai -->
+                  <span class="method-name">checkoutDayDuSangStepHai</span>
+                  <em>
+(TC_CHK_004: Điền đủ Step 1 và sang Step 2)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutThieuFirstName">
+                  </a> <!-- checkoutThieuFirstName -->
+                  <span class="method-name">checkoutThieuFirstName</span>
+                  <em>
+(TC_CHK_001: Validate thiếu First Name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutThieuLastName">
+                  </a> <!-- checkoutThieuLastName -->
+                  <span class="method-name">checkoutThieuLastName</span>
+                  <em>
+(TC_CHK_002: Validate thiếu Last Name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutThieuPostalCode">
+                  </a> <!-- checkoutThieuPostalCode -->
+                  <span class="method-name">checkoutThieuPostalCode</span>
+                  <em>
+(TC_CHK_003: Validate thiếu Postal Code)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quanSatProblemUserFlow">
+                  </a> <!-- quanSatProblemUserFlow -->
+                  <span class="method-name">quanSatProblemUserFlow</span>
+                  <em>
+(TC_BUG_001: Chạy flow cơ bản với problem_user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortGiaGiamDan">
+                  </a> <!-- sortGiaGiamDan -->
+                  <span class="method-name">sortGiaGiamDan</span>
+                  <em>
+(TC_CART_005: Sort giá giảm dần)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortGiaTangDan">
+                  </a> <!-- sortGiaTangDan -->
+                  <span class="method-name">sortGiaTangDan</span>
+                  <em>
+(TC_CART_004: Sort giá tăng dần)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortTenAZ">
+                  </a> <!-- sortTenAZ -->
+                  <span class="method-name">sortTenAZ</span>
+                  <em>
+(TC_CART_006: Sort tên A->Z)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortTenZA">
+                  </a> <!-- sortTenZA -->
+                  <span class="method-name">sortTenZA</span>
+                  <em>
+(TC_CART_007: Sort tên Z->A)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="them3SanPham">
+                  </a> <!-- them3SanPham -->
+                  <span class="method-name">them3SanPham</span>
+                  <em>
+(TC_CART_002: Thêm 3 sản phẩm - badge = 3)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="themMotSanPham">
+                  </a> <!-- themMotSanPham -->
+                  <span class="method-name">themMotSanPham</span>
+                  <em>
+(TC_CART_001: Thêm 1 sản phẩm - badge = 1)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyShippingInfo">
+                  </a> <!-- verifyShippingInfo -->
+                  <span class="method-name">verifyShippingInfo</span>
+                  <em>
+(TC_CHK_006: Verify shipping info)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTinhTienHaiSanPham">
+                  </a> <!-- verifyTinhTienHaiSanPham -->
+                  <span class="method-name">verifyTinhTienHaiSanPham</span>
+                  <em>
+(TC_CHK_005: Verify Item total/Tax/Total với 2 items)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xoaHetSanPham">
+                  </a> <!-- xoaHetSanPham -->
+                  <span class="method-name">xoaHetSanPham</span>
+                  <em>
+(TC_CART_003: Xóa hết - giỏ trống)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dtm.tests.TC_GioHangCheckoutE2ETest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">cancelTaiStepHai</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">cancelTaiStepMot</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutThieuFirstName</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutThieuLastName</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutThieuPostalCode</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">quanSatProblemUserFlow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sortGiaGiamDan</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sortGiaTangDan</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sortTenAZ</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sortTenZA</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyShippingInfo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTinhTienHaiSanPham</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xoaHetSanPham</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutDayDuSangStepHai</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">finishVaBackHomeResetGio</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">them3SanPham</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">themMotSanPham</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'xoaHetSanPham')
+data.setCell(0, 2, 'dtm.tests.TC_GioHangCheckoutE2ETest')
+data.setCell(0, 3, 20636);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'finishVaBackHomeResetGio')
+data.setCell(1, 2, 'dtm.tests.TC_GioHangCheckoutE2ETest')
+data.setCell(1, 3, 10411);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'cancelTaiStepHai')
+data.setCell(2, 2, 'dtm.tests.TC_GioHangCheckoutE2ETest')
+data.setCell(2, 3, 957);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyTinhTienHaiSanPham')
+data.setCell(3, 2, 'dtm.tests.TC_GioHangCheckoutE2ETest')
+data.setCell(3, 3, 837);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkoutThieuPostalCode')
+data.setCell(4, 2, 'dtm.tests.TC_GioHangCheckoutE2ETest')
+data.setCell(4, 3, 795);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkoutThieuFirstName')
+data.setCell(5, 2, 'dtm.tests.TC_GioHangCheckoutE2ETest')
+data.setCell(5, 3, 789);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkoutThieuLastName')
+data.setCell(6, 2, 'dtm.tests.TC_GioHangCheckoutE2ETest')
+data.setCell(6, 3, 739);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyShippingInfo')
+data.setCell(7, 2, 'dtm.tests.TC_GioHangCheckoutE2ETest')
+data.setCell(7, 3, 724);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkoutDayDuSangStepHai')
+data.setCell(8, 2, 'dtm.tests.TC_GioHangCheckoutE2ETest')
+data.setCell(8, 3, 698);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'quanSatProblemUserFlow')
+data.setCell(9, 2, 'dtm.tests.TC_GioHangCheckoutE2ETest')
+data.setCell(9, 3, 572);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'cancelTaiStepMot')
+data.setCell(10, 2, 'dtm.tests.TC_GioHangCheckoutE2ETest')
+data.setCell(10, 3, 430);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'them3SanPham')
+data.setCell(11, 2, 'dtm.tests.TC_GioHangCheckoutE2ETest')
+data.setCell(11, 3, 260);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'sortGiaTangDan')
+data.setCell(12, 2, 'dtm.tests.TC_GioHangCheckoutE2ETest')
+data.setCell(12, 3, 216);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'sortTenZA')
+data.setCell(13, 2, 'dtm.tests.TC_GioHangCheckoutE2ETest')
+data.setCell(13, 3, 211);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'sortGiaGiamDan')
+data.setCell(14, 2, 'dtm.tests.TC_GioHangCheckoutE2ETest')
+data.setCell(14, 3, 189);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'sortTenAZ')
+data.setCell(15, 2, 'dtm.tests.TC_GioHangCheckoutE2ETest')
+data.setCell(15, 3, 159);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'themMotSanPham')
+data.setCell(16, 2, 'dtm.tests.TC_GioHangCheckoutE2ETest')
+data.setCell(16, 3, 119);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">dtm.tests.TC_GioHangCheckoutE2ETest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void dtm.tests.TC_GioHangCheckoutE2ETest.cancelTaiStepHai())</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">chuanBi</span>
+                <span class="method-start">1835 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cancelTaiStepHai</span>
+                <span class="method-start">3010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=cancelTaiStepHai status=SUCCESS method=TC_GioHangCheckoutE2ETest.cancelTaiStepHai()...)</span>
+                <span class="method-start">3969 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void dtm.tests.TC_GioHangCheckoutE2ETest.cancelTaiStepMot())</span>
+                <span class="method-start">4178 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">chuanBi</span>
+                <span class="method-start">4913 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cancelTaiStepMot</span>
+                <span class="method-start">5987 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=cancelTaiStepMot status=SUCCESS method=TC_GioHangCheckoutE2ETest.cancelTaiStepMot()...)</span>
+                <span class="method-start">6418 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void dtm.tests.TC_GioHangCheckoutE2ETest.checkoutDayDuSangStepHai())</span>
+                <span class="method-start">6580 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">chuanBi</span>
+                <span class="method-start">7318 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutDayDuSangStepHai</span>
+                <span class="method-start">8360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutDayDuSangStepHai status=SUCCESS method=TC_GioHangCheckoutE2ETest.checkoutDa...)</span>
+                <span class="method-start">9058 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void dtm.tests.TC_GioHangCheckoutE2ETest.checkoutThieuFirstName())</span>
+                <span class="method-start">9237 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">chuanBi</span>
+                <span class="method-start">9983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutThieuFirstName</span>
+                <span class="method-start">11055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutThieuFirstName status=SUCCESS method=TC_GioHangCheckoutE2ETest.checkoutThie...)</span>
+                <span class="method-start">11844 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void dtm.tests.TC_GioHangCheckoutE2ETest.checkoutThieuLastName())</span>
+                <span class="method-start">12029 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">chuanBi</span>
+                <span class="method-start">12854 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutThieuLastName</span>
+                <span class="method-start">13984 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutThieuLastName status=SUCCESS method=TC_GioHangCheckoutE2ETest.checkoutThieu...)</span>
+                <span class="method-start">14724 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void dtm.tests.TC_GioHangCheckoutE2ETest.checkoutThieuPostalCode())</span>
+                <span class="method-start">14883 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">chuanBi</span>
+                <span class="method-start">15603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutThieuPostalCode</span>
+                <span class="method-start">16708 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=checkoutThieuPostalCode status=SUCCESS method=TC_GioHangCheckoutE2ETest.checkoutThi...)</span>
+                <span class="method-start">17503 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void dtm.tests.TC_GioHangCheckoutE2ETest.finishVaBackHomeResetGio())</span>
+                <span class="method-start">17694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">chuanBi</span>
+                <span class="method-start">18433 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">finishVaBackHomeResetGio</span>
+                <span class="method-start">19489 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=finishVaBackHomeResetGio status=FAILURE method=TC_GioHangCheckoutE2ETest.finishVaBa...)</span>
+                <span class="method-start">29904 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void dtm.tests.TC_GioHangCheckoutE2ETest.quanSatProblemUserFlow())</span>
+                <span class="method-start">30227 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">chuanBi</span>
+                <span class="method-start">31041 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">quanSatProblemUserFlow</span>
+                <span class="method-start">32163 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=quanSatProblemUserFlow status=SUCCESS method=TC_GioHangCheckoutE2ETest.quanSatProbl...)</span>
+                <span class="method-start">32735 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void dtm.tests.TC_GioHangCheckoutE2ETest.sortGiaGiamDan())</span>
+                <span class="method-start">32919 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">chuanBi</span>
+                <span class="method-start">33754 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortGiaGiamDan</span>
+                <span class="method-start">34805 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortGiaGiamDan status=SUCCESS method=TC_GioHangCheckoutE2ETest.sortGiaGiamDan()[pri...)</span>
+                <span class="method-start">34995 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void dtm.tests.TC_GioHangCheckoutE2ETest.sortGiaTangDan())</span>
+                <span class="method-start">35187 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">chuanBi</span>
+                <span class="method-start">35923 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortGiaTangDan</span>
+                <span class="method-start">37044 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortGiaTangDan status=SUCCESS method=TC_GioHangCheckoutE2ETest.sortGiaTangDan()[pri...)</span>
+                <span class="method-start">37261 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void dtm.tests.TC_GioHangCheckoutE2ETest.sortTenAZ())</span>
+                <span class="method-start">37444 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">chuanBi</span>
+                <span class="method-start">38166 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortTenAZ</span>
+                <span class="method-start">39291 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortTenAZ status=SUCCESS method=TC_GioHangCheckoutE2ETest.sortTenAZ()[pri:0, instan...)</span>
+                <span class="method-start">39451 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void dtm.tests.TC_GioHangCheckoutE2ETest.sortTenZA())</span>
+                <span class="method-start">39620 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">chuanBi</span>
+                <span class="method-start">40341 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortTenZA</span>
+                <span class="method-start">41435 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortTenZA status=SUCCESS method=TC_GioHangCheckoutE2ETest.sortTenZA()[pri:0, instan...)</span>
+                <span class="method-start">41646 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void dtm.tests.TC_GioHangCheckoutE2ETest.them3SanPham())</span>
+                <span class="method-start">41945 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">chuanBi</span>
+                <span class="method-start">42752 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">them3SanPham</span>
+                <span class="method-start">43884 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=them3SanPham status=SUCCESS method=TC_GioHangCheckoutE2ETest.them3SanPham()[pri:0, ...)</span>
+                <span class="method-start">44144 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void dtm.tests.TC_GioHangCheckoutE2ETest.themMotSanPham())</span>
+                <span class="method-start">44340 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">chuanBi</span>
+                <span class="method-start">45078 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">themMotSanPham</span>
+                <span class="method-start">46261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=themMotSanPham status=SUCCESS method=TC_GioHangCheckoutE2ETest.themMotSanPham()[pri...)</span>
+                <span class="method-start">46381 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void dtm.tests.TC_GioHangCheckoutE2ETest.verifyShippingInfo())</span>
+                <span class="method-start">46576 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">chuanBi</span>
+                <span class="method-start">47359 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyShippingInfo</span>
+                <span class="method-start">48441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyShippingInfo status=SUCCESS method=TC_GioHangCheckoutE2ETest.verifyShippingIn...)</span>
+                <span class="method-start">49165 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void dtm.tests.TC_GioHangCheckoutE2ETest.verifyTinhTienHaiSanPham())</span>
+                <span class="method-start">49364 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">chuanBi</span>
+                <span class="method-start">50227 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTinhTienHaiSanPham</span>
+                <span class="method-start">51388 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyTinhTienHaiSanPham status=SUCCESS method=TC_GioHangCheckoutE2ETest.verifyTinh...)</span>
+                <span class="method-start">52225 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void dtm.tests.TC_GioHangCheckoutE2ETest.xoaHetSanPham())</span>
+                <span class="method-start">52409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">chuanBi</span>
+                <span class="method-start">53193 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">xoaHetSanPham</span>
+                <span class="method-start">54295 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=xoaHetSanPham status=SUCCESS method=TC_GioHangCheckoutE2ETest.xoaHetSanPham()[pri:0...)</span>
+                <span class="method-start">74932 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

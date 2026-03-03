@@ -1,0 +1,13 @@
+dtm\data\DangNhapData.class
+dtm\tests\TC_GioHangTest.class
+dtm\pages\CheckoutPage.class
+dtm\pages\CartPage.class
+dtm\pages\LoginPage.class
+dtm\tests\TC_GioHangCheckoutE2ETest.class
+dtm\pages\InventoryPage.class
+dtm\base\BaseTest.class
+dtm\data\GioHangData.class
+dtm\tests\TC_DangNhapTest.class
+dtm\tests\TC_CheckoutTest.class
+dtm\tests\TC_TimKiemTest.class
+dtm\tests\TC_DangNhapFailDemoTest.class

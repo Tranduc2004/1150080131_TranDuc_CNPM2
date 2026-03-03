@@ -1,0 +1,49 @@
+BT2.2 - Kiem thu Dang nhap saucedemo voi DataProvider
+Project: Lab7_BlackBox_Testing
+Lenh chay: mvn -q -Dtest=TC_DangNhapTest test
+Suite: Surefire suite
+Tong ket: total=17, passed=17, failed=0, skipped=0
+
+Danh sach test case da chay:
+
+01) username=standard_user, password=secret_sauce
+    expected=THANH_CONG | moTa=Tài khoản valid chuẩn | status=PASS
+02) username=problem_user, password=secret_sauce
+    expected=THANH_CONG | moTa=Tài khoản lỗi UI nhưng vẫn đăng nhập được | status=PASS
+03) username=performance_glitch_user, password=secret_sauce
+    expected=THANH_CONG | moTa=Tài khoản chậm | status=PASS
+04) username=error_user, password=secret_sauce
+    expected=THANH_CONG | moTa=Tài khoản lỗi chức năng | status=PASS
+05) username=visual_user, password=secret_sauce
+    expected=THANH_CONG | moTa=Tài khoản visual | status=PASS
+
+06) username=locked_out_user, password=secret_sauce
+    expected=BI_KHOA | moTa=Tài khoản bị khóa | status=PASS
+
+07) username=khong_ton_tai_001, password=mat_khau_tu_dat
+    expected=SAI_THONG_TIN | moTa=Tài khoản không tồn tại | status=PASS
+08) username=standard_user, password=wrong_password
+    expected=SAI_THONG_TIN | moTa=Sai password | status=PASS
+09) username=user@#$, password=secret_sauce
+    expected=SAI_THONG_TIN | moTa=Username ký tự đặc biệt | status=PASS
+10) username=" standard_user", password=secret_sauce
+    expected=SAI_THONG_TIN | moTa=Username có khoảng trắng đầu | status=PASS
+11) username="standard_user ", password=secret_sauce
+    expected=SAI_THONG_TIN | moTa=Username có khoảng trắng cuối | status=PASS
+
+12) username="", password=secret_sauce
+    expected=TRUONG_TRONG | moTa=Để trống username | status=PASS
+13) username=standard_user, password=""
+    expected=TRUONG_TRONG | moTa=Để trống password | status=PASS
+14) username="", password=""
+    expected=TRUONG_TRONG | moTa=Để trống cả hai | status=PASS
+
+15) username=null, password=secret_sauce
+    expected=TRUONG_TRONG | moTa=Username null | status=PASS
+16) username=standard_user, password=null
+    expected=TRUONG_TRONG | moTa=Password null | status=PASS
+17) username=null, password=null
+    expected=TRUONG_TRONG | moTa=Cả username/password đều null | status=PASS
+
+Nguon du lieu ket qua:
+- target/surefire-reports/testng-results.xml

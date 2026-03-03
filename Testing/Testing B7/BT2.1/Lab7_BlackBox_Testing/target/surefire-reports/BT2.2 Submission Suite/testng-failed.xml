@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BT2.2 Submission Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="DangNhap DataProvider + Fail Demo(failed)" verbose="0">
+    <classes>
+      <class name="dtm.tests.TC_DangNhapFailDemoTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="demoFailScreenshot"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- dtm.tests.TC_DangNhapFailDemoTest -->
+    </classes>
+  </test> <!-- DangNhap DataProvider + Fail Demo(failed) -->
+</suite> <!-- Failed suite [BT2.2 Submission Suite] -->

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="0.527" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Năm 4\Testing\Testing B8\BT2.1\target\test-classes;D:\Năm 4\Testing\Testing B8\BT2.1\target\classes;C:\Users\trand\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\trand\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\trand\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\trand\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Saigon"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\trand\AppData\Local\Temp\surefire16402454478144035330\surefirebooter-20260310134101907_3.jar C:\Users\trand\AppData\Local\Temp\surefire16402454478144035330 2026-03-10T13-41-01_796-jvmRun1 surefire-20260310134101907_1tmp surefire_0-20260310134101907_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Năm 4\Testing\Testing B8\BT2.1\target\test-classes;D:\Năm 4\Testing\Testing B8\BT2.1\target\classes;C:\Users\trand\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\trand\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\trand\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\trand\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\trand"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Năm 4\Testing\Testing B8\BT2.1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\trand\AppData\Local\Temp\surefire16402454478144035330\surefirebooter-20260310134101907_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.9+7-LTS-338"/>
+    <property name="user.name" value="trand"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\trand\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\trand\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.9"/>
+    <property name="user.dir" value="D:\Năm 4\Testing\Testing B8\BT2.1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\trand\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\trand\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Eclipse Adoptium\jdk-25.0.2.10-hotspot\bin;C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Tool;C:\flutter\bin;C:\Program Files\Docker\Docker\resources\bin;%JAVA_HOME%\bin;C:\Program Files\cursor\resources\app\bin;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\dotnet\;C:\apache-maven-3.9.12-bin\apache-maven-3.9.12\bin;C:\Program Files\Java\jdk-21\bin;C:\Users\trand\AppData\Local\Microsoft\WindowsApps;C:\Users\trand\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\trand\AppData\Roaming\npm;C:\Users\trand\AppData\Local\Programs\mongosh\;C:\Program Files (x86)\MongoDB Atlas CLI\;C:\Tool;C:\Users\trand\AppData\Local\Programs\Kiro\bin;C:\Users\trand\.dotnet\tools;C:\Users\trand\AppData\Local\Python\bin;c:\Users\trand\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.9+7-LTS-338"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testLoginWithInvalidPassword" classname="bt21.LoginTest" time="0.01">
+    <system-out><![CDATA[[LoginTest] testLoginWithInvalidPassword - regression
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginWithValidCredential" classname="bt21.LoginTest" time="0.003">
+    <system-out><![CDATA[[LoginTest] testLoginWithValidCredential - smoke, regression
+]]></system-out>
+  </testcase>
+  <testcase name="testAddItemToCart" classname="bt21.CartTest" time="0.001">
+    <system-out><![CDATA[[CartTest] testAddItemToCart - smoke, regression
+]]></system-out>
+  </testcase>
+  <testcase name="testRemoveItemFromCart" classname="bt21.CartTest" time="0.001">
+    <system-out><![CDATA[[CartTest] testRemoveItemFromCart - regression
+]]></system-out>
+  </testcase>
+  <testcase name="testCheckoutWithEmptyPostalCode" classname="bt21.CheckoutTest" time="0.002">
+    <system-out><![CDATA[[CheckoutTest] testCheckoutWithEmptyPostalCode - regression
+]]></system-out>
+  </testcase>
+  <testcase name="testCheckoutWithValidInformation" classname="bt21.CheckoutTest" time="0.001">
+    <system-out><![CDATA[[CheckoutTest] testCheckoutWithValidInformation - smoke, regression
+]]></system-out>
+  </testcase>
+</testsuite>

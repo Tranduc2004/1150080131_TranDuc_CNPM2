@@ -1,0 +1,16 @@
+SO SANH KET QUA 2 LUOT CHAY TESTNG GROUP
+
+1) Luot chay SMOKE
+- File console: outputs/smoke-run.txt
+- Tong ket: [INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+- Y nghia: Chi chay 1 test moi class (LoginTest, CartTest, CheckoutTest).
+
+2) Luot chay REGRESSION
+- File console: outputs/regression-run.txt
+- Tong ket: [INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+- Y nghia: Chay tat ca test thuoc group regression trong 3 class.
+
+3) So sanh nhanh
+- So test da chay: smoke = 3, regression = 6
+- Ket qua: Ca 2 luot deu PASS, khong co Failure/Error/Skipped
+- Ket luan: Cau hinh group trong testng.xml hoat dong dung theo yeu cau bai 2.1

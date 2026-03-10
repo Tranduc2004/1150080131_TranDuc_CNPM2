@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T15:28:45 ICT" name="BT6.2 White-Box + Selenium Suite" finished-at="2026-03-10T15:29:08 ICT" duration-ms="22833">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T15:28:45 ICT" name="Text Box White-Box Tests" finished-at="2026-03-10T15:29:08 ICT" duration-ms="22833">
+      <class name="bt62.tests.TextBoxWhiteBoxTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:bt62.tests.TextBoxWhiteBoxTest@5fdcaa40]" started-at="2026-03-10T15:28:45 ICT" name="setUp" finished-at="2026-03-10T15:28:51 ICT" duration-ms="5503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldDisplayOutputWhenInputIsValid()[pri:0, instance:bt62.tests.TextBoxWhiteBoxTest@5fdcaa40]" started-at="2026-03-10T15:28:51 ICT" name="shouldDisplayOutputWhenInputIsValid" description="TC04 - Valid flow: du lieu hop le -&gt; output hien thi" finished-at="2026-03-10T15:28:52 ICT" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldDisplayOutputWhenInputIsValid -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:bt62.tests.TextBoxWhiteBoxTest@5fdcaa40]" started-at="2026-03-10T15:28:52 ICT" name="tearDown" finished-at="2026-03-10T15:28:52 ICT" duration-ms="585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldDisplayOutputWhenInputIsValid status=SUCCESS method=TextBoxWhiteBoxTest.shouldDisplayOutputWhenInputIsValid()[pri:0, instance:bt62.tests.TextBoxWhiteBoxTest@5fdcaa40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:bt62.tests.TextBoxWhiteBoxTest@5fdcaa40]" started-at="2026-03-10T15:28:52 ICT" name="setUp" finished-at="2026-03-10T15:28:56 ICT" duration-ms="3934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldDisplayOutputWhenOnlySpaces()[pri:0, instance:bt62.tests.TextBoxWhiteBoxTest@5fdcaa40]" started-at="2026-03-10T15:28:56 ICT" name="shouldDisplayOutputWhenOnlySpaces" description="TC02 - Boundary: Space-only input -&gt; van hien thi output (khong trim)" finished-at="2026-03-10T15:28:57 ICT" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldDisplayOutputWhenOnlySpaces -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:bt62.tests.TextBoxWhiteBoxTest@5fdcaa40]" started-at="2026-03-10T15:28:57 ICT" name="tearDown" finished-at="2026-03-10T15:28:57 ICT" duration-ms="552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldDisplayOutputWhenOnlySpaces status=SUCCESS method=TextBoxWhiteBoxTest.shouldDisplayOutputWhenOnlySpaces()[pri:0, instance:bt62.tests.TextBoxWhiteBoxTest@5fdcaa40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:bt62.tests.TextBoxWhiteBoxTest@5fdcaa40]" started-at="2026-03-10T15:28:57 ICT" name="setUp" finished-at="2026-03-10T15:29:01 ICT" duration-ms="4062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldMarkEmailInvalidWhenFormatIsWrong()[pri:0, instance:bt62.tests.TextBoxWhiteBoxTest@5fdcaa40]" started-at="2026-03-10T15:29:01 ICT" name="shouldMarkEmailInvalidWhenFormatIsWrong" description="TC03 - Boundary: Invalid email format -&gt; email bi danh dau loi" finished-at="2026-03-10T15:29:02 ICT" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldMarkEmailInvalidWhenFormatIsWrong -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:bt62.tests.TextBoxWhiteBoxTest@5fdcaa40]" started-at="2026-03-10T15:29:02 ICT" name="tearDown" finished-at="2026-03-10T15:29:03 ICT" duration-ms="508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldMarkEmailInvalidWhenFormatIsWrong status=SUCCESS method=TextBoxWhiteBoxTest.shouldMarkEmailInvalidWhenFormatIsWrong()[pri:0, instance:bt62.tests.TextBoxWhiteBoxTest@5fdcaa40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:bt62.tests.TextBoxWhiteBoxTest@5fdcaa40]" started-at="2026-03-10T15:29:03 ICT" name="setUp" finished-at="2026-03-10T15:29:07 ICT" duration-ms="3920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldNotDisplayOutputWhenAllFieldsEmpty()[pri:0, instance:bt62.tests.TextBoxWhiteBoxTest@5fdcaa40]" started-at="2026-03-10T15:29:07 ICT" name="shouldNotDisplayOutputWhenAllFieldsEmpty" description="TC01 - Boundary: Empty input -&gt; khong hien thi output" finished-at="2026-03-10T15:29:07 ICT" duration-ms="894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotDisplayOutputWhenAllFieldsEmpty -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:bt62.tests.TextBoxWhiteBoxTest@5fdcaa40]" started-at="2026-03-10T15:29:08 ICT" name="tearDown" finished-at="2026-03-10T15:29:08 ICT" duration-ms="594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldNotDisplayOutputWhenAllFieldsEmpty status=SUCCESS method=TextBoxWhiteBoxTest.shouldNotDisplayOutputWhenAllFieldsEmpty()[pri:0, instance:bt62.tests.TextBoxWhiteBoxTest@5fdcaa40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bt62.tests.TextBoxWhiteBoxTest -->
+    </test> <!-- Text Box White-Box Tests -->
+  </suite> <!-- BT6.2 White-Box + Selenium Suite -->
+</testng-results>

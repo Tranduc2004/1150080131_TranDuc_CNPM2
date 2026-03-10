@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T15:38:05 ICT" name="BT7.1 OrderProcessor Suite" finished-at="2026-03-10T15:38:05 ICT" duration-ms="88">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T15:38:05 ICT" name="OrderProcessor White-Box Tests" finished-at="2026-03-10T15:38:05 ICT" duration-ms="88">
+      <class name="bt71.OrderProcessorTest">
+        <test-method signature="basisPath_invalidCoupon_shouldThrow()[pri:0, instance:bt71.OrderProcessorTest@6580cfdd]" started-at="2026-03-10T15:38:05 ICT" name="basisPath_invalidCoupon_shouldThrow" description="BP6: invalid coupon -&gt; throw" finished-at="2026-03-10T15:38:05 ICT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basisPath_invalidCoupon_shouldThrow -->
+        <test-method signature="basisPath_noCouponNoMember_codShip20000()[pri:0, instance:bt71.OrderProcessorTest@6580cfdd]" started-at="2026-03-10T15:38:05 ICT" name="basisPath_noCouponNoMember_codShip20000" description="BP3: no coupon, no member, D7 true, D8 false (COD)" finished-at="2026-03-10T15:38:05 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basisPath_noCouponNoMember_codShip20000 -->
+        <test-method signature="basisPath_noCouponNoMember_onlineShip30000()[pri:0, instance:bt71.OrderProcessorTest@6580cfdd]" started-at="2026-03-10T15:38:05 ICT" name="basisPath_noCouponNoMember_onlineShip30000" description="BP2: D1 false, no coupon, no member, D7 true, D8 true" finished-at="2026-03-10T15:38:05 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basisPath_noCouponNoMember_onlineShip30000 -->
+        <test-method signature="basisPath_sale10_gold_noShip()[pri:0, instance:bt71.OrderProcessorTest@6580cfdd]" started-at="2026-03-10T15:38:05 ICT" name="basisPath_sale10_gold_noShip" description="BP4: coupon SALE10, GOLD, D7 false" finished-at="2026-03-10T15:38:05 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basisPath_sale10_gold_noShip -->
+        <test-method signature="basisPath_sale20_platinum_noShip()[pri:0, instance:bt71.OrderProcessorTest@6580cfdd]" started-at="2026-03-10T15:38:05 ICT" name="basisPath_sale20_platinum_noShip" description="BP5: coupon SALE20, PLATINUM, D7 false" finished-at="2026-03-10T15:38:05 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basisPath_sale20_platinum_noShip -->
+        <test-method signature="basisPath_shouldThrowWhenItemsNull()[pri:0, instance:bt71.OrderProcessorTest@6580cfdd]" started-at="2026-03-10T15:38:05 ICT" name="basisPath_shouldThrowWhenItemsNull" description="BP1: D1 true -&gt; throw Gio hang trong" finished-at="2026-03-10T15:38:05 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basisPath_shouldThrowWhenItemsNull -->
+        <test-method signature="mcdc_coupon_D2_and_D3(java.lang.String,java.lang.String,java.lang.String,double,boolean)[pri:0, instance:bt71.OrderProcessorTest@6580cfdd]" started-at="2026-03-10T15:38:05 ICT" name="mcdc_coupon_D2_and_D3" description="MC/DC for D2&amp;&amp;D3: decision A&amp;&amp;(coupon==SALE10)" data-provider="mcdcCouponD2D3" finished-at="2026-03-10T15:38:05 ICT" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SILVER]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CARD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[130000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mcdc_coupon_D2_and_D3 -->
+        <test-method signature="mcdc_coupon_D2_and_D3(java.lang.String,java.lang.String,java.lang.String,double,boolean)[pri:0, instance:bt71.OrderProcessorTest@6580cfdd]" started-at="2026-03-10T15:38:05 ICT" name="mcdc_coupon_D2_and_D3" description="MC/DC for D2&amp;&amp;D3: decision A&amp;&amp;(coupon==SALE10)" data-provider="mcdcCouponD2D3" finished-at="2026-03-10T15:38:05 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SILVER]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CARD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[130000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mcdc_coupon_D2_and_D3 -->
+        <test-method signature="mcdc_coupon_D2_and_D3(java.lang.String,java.lang.String,java.lang.String,double,boolean)[pri:0, instance:bt71.OrderProcessorTest@6580cfdd]" started-at="2026-03-10T15:38:05 ICT" name="mcdc_coupon_D2_and_D3" description="MC/DC for D2&amp;&amp;D3: decision A&amp;&amp;(coupon==SALE10)" data-provider="mcdcCouponD2D3" finished-at="2026-03-10T15:38:05 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SALE10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SILVER]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CARD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[120000.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mcdc_coupon_D2_and_D3 -->
+      </class> <!-- bt71.OrderProcessorTest -->
+    </test> <!-- OrderProcessor White-Box Tests -->
+  </suite> <!-- BT7.1 OrderProcessor Suite -->
+</testng-results>

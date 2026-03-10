@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="BT3.1 WhiteBox Coverage Suite">
+    <test name="Branch Coverage Tests">
+        <classes>
+            <class name="bt31.XepLoaiBranchCoverageTest"/>
+        </classes>
+    </test>
+</suite>

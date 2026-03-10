@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="BT3.2 Coverage Suite">
+    <test name="TinhTienNuoc Branch Coverage">
+        <classes>
+            <class name="bt32.TinhTienNuocBranchCoverageTest"/>
+        </classes>
+    </test>
+</suite>

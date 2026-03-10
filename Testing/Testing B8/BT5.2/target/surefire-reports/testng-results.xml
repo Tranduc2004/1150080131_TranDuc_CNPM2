@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T15:09:30 ICT" name="BT5.2 Condition and MCDC Suite" finished-at="2026-03-10T15:09:30 ICT" duration-ms="66">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T15:09:30 ICT" name="Loan Eligibility Tests" finished-at="2026-03-10T15:09:30 ICT" duration-ms="66">
+      <class name="bt52.VayVonMCDCTest">
+        <test-method signature="testMCDC_WithDataProvider(java.lang.String,int,double,boolean,int,boolean,java.lang.String)[pri:0, instance:bt52.VayVonMCDCTest@6a28ffa4]" started-at="2026-03-10T15:09:30 ICT" name="testMCDC_WithDataProvider" description="MC/DC: Assert true/false voi thong bao loi ro rang va DataProvider" data-provider="mcdcCases" finished-at="2026-03-10T15:09:30 ICT" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MCDC_A_Base]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12000000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[650]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Case co ban A=1,B=1,C=1,D=0 phai du dieu kien vay]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMCDC_WithDataProvider -->
+        <test-method signature="testMCDC_WithDataProvider(java.lang.String,int,double,boolean,int,boolean,java.lang.String)[pri:0, instance:bt52.VayVonMCDCTest@6a28ffa4]" started-at="2026-03-10T15:09:30 ICT" name="testMCDC_WithDataProvider" description="MC/DC: Assert true/false voi thong bao loi ro rang va DataProvider" data-provider="mcdcCases" finished-at="2026-03-10T15:09:30 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MCDC_A_TuoiDocLap_ThapHon22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12000000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[650]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chi doi A tu true sang false thi ket qua phai doi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMCDC_WithDataProvider -->
+        <test-method signature="testMCDC_WithDataProvider(java.lang.String,int,double,boolean,int,boolean,java.lang.String)[pri:0, instance:bt52.VayVonMCDCTest@6a28ffa4]" started-at="2026-03-10T15:09:30 ICT" name="testMCDC_WithDataProvider" description="MC/DC: Assert true/false voi thong bao loi ro rang va DataProvider" data-provider="mcdcCases" finished-at="2026-03-10T15:09:30 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MCDC_B_ThuNhapDocLap_Duoi10Tr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8000000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[650]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chi doi B tu true sang false thi ket qua phai doi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMCDC_WithDataProvider -->
+        <test-method signature="testMCDC_WithDataProvider(java.lang.String,int,double,boolean,int,boolean,java.lang.String)[pri:0, instance:bt52.VayVonMCDCTest@6a28ffa4]" started-at="2026-03-10T15:09:30 ICT" name="testMCDC_WithDataProvider" description="MC/DC: Assert true/false voi thong bao loi ro rang va DataProvider" data-provider="mcdcCases" finished-at="2026-03-10T15:09:30 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MCDC_CD_Baseline_KhongTaiSan_DiemThap]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12000000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[650]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[A=1,B=1,C=0,D=0 phai khong du dieu kien vay]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMCDC_WithDataProvider -->
+        <test-method signature="testMCDC_WithDataProvider(java.lang.String,int,double,boolean,int,boolean,java.lang.String)[pri:0, instance:bt52.VayVonMCDCTest@6a28ffa4]" started-at="2026-03-10T15:09:30 ICT" name="testMCDC_WithDataProvider" description="MC/DC: Assert true/false voi thong bao loi ro rang va DataProvider" data-provider="mcdcCases" finished-at="2026-03-10T15:09:30 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MCDC_D_DiemTinDungDocLap_Tren700]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12000000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[720]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chi doi D tu false sang true thi ket qua phai doi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMCDC_WithDataProvider -->
+      </class> <!-- bt52.VayVonMCDCTest -->
+      <class name="bt52.LoanConditionCoverageTest">
+        <test-method signature="cc_tc1_allConditionsTrue()[pri:0, instance:bt52.LoanConditionCoverageTest@64cd705f]" started-at="2026-03-10T15:09:30 ICT" name="cc_tc1_allConditionsTrue" description="CC-TC1: A,B,C,D deu True" finished-at="2026-03-10T15:09:30 ICT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cc_tc1_allConditionsTrue -->
+        <test-method signature="cc_tc2_allConditionsFalse()[pri:0, instance:bt52.LoanConditionCoverageTest@64cd705f]" started-at="2026-03-10T15:09:30 ICT" name="cc_tc2_allConditionsFalse" description="CC-TC2: A,B,C,D deu False" finished-at="2026-03-10T15:09:30 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cc_tc2_allConditionsFalse -->
+      </class> <!-- bt52.LoanConditionCoverageTest -->
+    </test> <!-- Loan Eligibility Tests -->
+  </suite> <!-- BT5.2 Condition and MCDC Suite -->
+</testng-results>

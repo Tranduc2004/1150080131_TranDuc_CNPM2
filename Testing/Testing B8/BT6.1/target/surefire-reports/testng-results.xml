@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T15:22:20 ICT" name="BT6.1 TDD Phone Validator Suite" finished-at="2026-03-10T15:22:20 ICT" duration-ms="135">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T15:22:20 ICT" name="Phone Validator Tests" finished-at="2026-03-10T15:22:20 ICT" duration-ms="135">
+      <class name="bt61.PhoneValidatorTest">
+        <test-method signature="shouldAcceptValidVietnamPhone(java.lang.String)[pri:0, instance:bt61.PhoneValidatorTest@45905bff]" started-at="2026-03-10T15:22:20 ICT" name="shouldAcceptValidVietnamPhone" data-provider="validPhones" finished-at="2026-03-10T15:22:20 ICT" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0987654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAcceptValidVietnamPhone -->
+        <test-method signature="shouldAcceptValidVietnamPhone(java.lang.String)[pri:0, instance:bt61.PhoneValidatorTest@45905bff]" started-at="2026-03-10T15:22:20 ICT" name="shouldAcceptValidVietnamPhone" data-provider="validPhones" finished-at="2026-03-10T15:22:20 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0351234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAcceptValidVietnamPhone -->
+        <test-method signature="shouldAcceptValidVietnamPhone(java.lang.String)[pri:0, instance:bt61.PhoneValidatorTest@45905bff]" started-at="2026-03-10T15:22:20 ICT" name="shouldAcceptValidVietnamPhone" data-provider="validPhones" finished-at="2026-03-10T15:22:20 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[+84987654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAcceptValidVietnamPhone -->
+        <test-method signature="shouldAcceptValidVietnamPhone(java.lang.String)[pri:0, instance:bt61.PhoneValidatorTest@45905bff]" started-at="2026-03-10T15:22:20 ICT" name="shouldAcceptValidVietnamPhone" data-provider="validPhones" finished-at="2026-03-10T15:22:20 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[+84 987 654 321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAcceptValidVietnamPhone -->
+        <test-method signature="shouldAcceptValidVietnamPhone(java.lang.String)[pri:0, instance:bt61.PhoneValidatorTest@45905bff]" started-at="2026-03-10T15:22:20 ICT" name="shouldAcceptValidVietnamPhone" data-provider="validPhones" finished-at="2026-03-10T15:22:20 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0 987 654 321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAcceptValidVietnamPhone -->
+        <test-method signature="shouldRejectInvalidVietnamPhone(java.lang.String)[pri:0, instance:bt61.PhoneValidatorTest@45905bff]" started-at="2026-03-10T15:22:20 ICT" name="shouldRejectInvalidVietnamPhone" data-provider="invalidPhones" finished-at="2026-03-10T15:22:20 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRejectInvalidVietnamPhone -->
+        <test-method signature="shouldRejectInvalidVietnamPhone(java.lang.String)[pri:0, instance:bt61.PhoneValidatorTest@45905bff]" started-at="2026-03-10T15:22:20 ICT" name="shouldRejectInvalidVietnamPhone" data-provider="invalidPhones" finished-at="2026-03-10T15:22:20 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRejectInvalidVietnamPhone -->
+        <test-method signature="shouldRejectInvalidVietnamPhone(java.lang.String)[pri:0, instance:bt61.PhoneValidatorTest@45905bff]" started-at="2026-03-10T15:22:20 ICT" name="shouldRejectInvalidVietnamPhone" data-provider="invalidPhones" finished-at="2026-03-10T15:22:20 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[   ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRejectInvalidVietnamPhone -->
+        <test-method signature="shouldRejectInvalidVietnamPhone(java.lang.String)[pri:0, instance:bt61.PhoneValidatorTest@45905bff]" started-at="2026-03-10T15:22:20 ICT" name="shouldRejectInvalidVietnamPhone" data-provider="invalidPhones" finished-at="2026-03-10T15:22:20 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[+84123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRejectInvalidVietnamPhone -->
+        <test-method signature="shouldRejectInvalidVietnamPhone(java.lang.String)[pri:0, instance:bt61.PhoneValidatorTest@45905bff]" started-at="2026-03-10T15:22:20 ICT" name="shouldRejectInvalidVietnamPhone" data-provider="invalidPhones" finished-at="2026-03-10T15:22:20 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRejectInvalidVietnamPhone -->
+        <test-method signature="shouldRejectInvalidVietnamPhone(java.lang.String)[pri:0, instance:bt61.PhoneValidatorTest@45905bff]" started-at="2026-03-10T15:22:20 ICT" name="shouldRejectInvalidVietnamPhone" data-provider="invalidPhones" finished-at="2026-03-10T15:22:20 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[099876543]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRejectInvalidVietnamPhone -->
+        <test-method signature="shouldRejectInvalidVietnamPhone(java.lang.String)[pri:0, instance:bt61.PhoneValidatorTest@45905bff]" started-at="2026-03-10T15:22:20 ICT" name="shouldRejectInvalidVietnamPhone" data-provider="invalidPhones" finished-at="2026-03-10T15:22:20 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[09987654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRejectInvalidVietnamPhone -->
+        <test-method signature="shouldRejectInvalidVietnamPhone(java.lang.String)[pri:0, instance:bt61.PhoneValidatorTest@45905bff]" started-at="2026-03-10T15:22:20 ICT" name="shouldRejectInvalidVietnamPhone" data-provider="invalidPhones" finished-at="2026-03-10T15:22:20 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[+84-987654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRejectInvalidVietnamPhone -->
+        <test-method signature="shouldRejectInvalidVietnamPhone(java.lang.String)[pri:0, instance:bt61.PhoneValidatorTest@45905bff]" started-at="2026-03-10T15:22:20 ICT" name="shouldRejectInvalidVietnamPhone" data-provider="invalidPhones" finished-at="2026-03-10T15:22:20 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[84 987654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRejectInvalidVietnamPhone -->
+        <test-method signature="shouldRejectInvalidVietnamPhone(java.lang.String)[pri:0, instance:bt61.PhoneValidatorTest@45905bff]" started-at="2026-03-10T15:22:20 ICT" name="shouldRejectInvalidVietnamPhone" data-provider="invalidPhones" finished-at="2026-03-10T15:22:20 ICT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[03a1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRejectInvalidVietnamPhone -->
+        <test-method signature="shouldRejectInvalidVietnamPhone(java.lang.String)[pri:0, instance:bt61.PhoneValidatorTest@45905bff]" started-at="2026-03-10T15:22:20 ICT" name="shouldRejectInvalidVietnamPhone" data-provider="invalidPhones" finished-at="2026-03-10T15:22:20 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[+84+987654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRejectInvalidVietnamPhone -->
+      </class> <!-- bt61.PhoneValidatorTest -->
+    </test> <!-- Phone Validator Tests -->
+  </suite> <!-- BT6.1 TDD Phone Validator Suite -->
+</testng-results>

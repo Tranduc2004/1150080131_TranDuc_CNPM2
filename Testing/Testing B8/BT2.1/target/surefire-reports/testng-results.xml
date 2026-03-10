@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T13:41:02 ICT" name="BT2.1 Suite" finished-at="2026-03-10T13:41:02 ICT" duration-ms="60">
+    <groups>
+      <group name="regression">
+        <method signature="CartTest.testAddItemToCart()[pri:0, instance:bt21.CartTest@63355449]" name="testAddItemToCart" class="bt21.CartTest"/>
+        <method signature="CartTest.testRemoveItemFromCart()[pri:0, instance:bt21.CartTest@63355449]" name="testRemoveItemFromCart" class="bt21.CartTest"/>
+        <method signature="CheckoutTest.testCheckoutWithEmptyPostalCode()[pri:0, instance:bt21.CheckoutTest@9353778]" name="testCheckoutWithEmptyPostalCode" class="bt21.CheckoutTest"/>
+        <method signature="CheckoutTest.testCheckoutWithValidInformation()[pri:0, instance:bt21.CheckoutTest@9353778]" name="testCheckoutWithValidInformation" class="bt21.CheckoutTest"/>
+        <method signature="LoginTest.testLoginWithInvalidPassword()[pri:0, instance:bt21.LoginTest@a9cd3b1]" name="testLoginWithInvalidPassword" class="bt21.LoginTest"/>
+        <method signature="LoginTest.testLoginWithValidCredential()[pri:0, instance:bt21.LoginTest@a9cd3b1]" name="testLoginWithValidCredential" class="bt21.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CartTest.testAddItemToCart()[pri:0, instance:bt21.CartTest@63355449]" name="testAddItemToCart" class="bt21.CartTest"/>
+        <method signature="CheckoutTest.testCheckoutWithValidInformation()[pri:0, instance:bt21.CheckoutTest@9353778]" name="testCheckoutWithValidInformation" class="bt21.CheckoutTest"/>
+        <method signature="LoginTest.testLoginWithValidCredential()[pri:0, instance:bt21.LoginTest@a9cd3b1]" name="testLoginWithValidCredential" class="bt21.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-03-10T13:41:02 ICT" name="Regression Group Run" finished-at="2026-03-10T13:41:02 ICT" duration-ms="60">
+      <class name="bt21.CartTest">
+        <test-method signature="testAddItemToCart()[pri:0, instance:bt21.CartTest@63355449]" started-at="2026-03-10T13:41:02 ICT" name="testAddItemToCart" finished-at="2026-03-10T13:41:02 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddItemToCart -->
+        <test-method signature="testRemoveItemFromCart()[pri:0, instance:bt21.CartTest@63355449]" started-at="2026-03-10T13:41:02 ICT" name="testRemoveItemFromCart" finished-at="2026-03-10T13:41:02 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveItemFromCart -->
+      </class> <!-- bt21.CartTest -->
+      <class name="bt21.CheckoutTest">
+        <test-method signature="testCheckoutWithEmptyPostalCode()[pri:0, instance:bt21.CheckoutTest@9353778]" started-at="2026-03-10T13:41:02 ICT" name="testCheckoutWithEmptyPostalCode" finished-at="2026-03-10T13:41:02 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutWithEmptyPostalCode -->
+        <test-method signature="testCheckoutWithValidInformation()[pri:0, instance:bt21.CheckoutTest@9353778]" started-at="2026-03-10T13:41:02 ICT" name="testCheckoutWithValidInformation" finished-at="2026-03-10T13:41:02 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutWithValidInformation -->
+      </class> <!-- bt21.CheckoutTest -->
+      <class name="bt21.LoginTest">
+        <test-method signature="testLoginWithInvalidPassword()[pri:0, instance:bt21.LoginTest@a9cd3b1]" started-at="2026-03-10T13:41:02 ICT" name="testLoginWithInvalidPassword" finished-at="2026-03-10T13:41:02 ICT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidPassword -->
+        <test-method signature="testLoginWithValidCredential()[pri:0, instance:bt21.LoginTest@a9cd3b1]" started-at="2026-03-10T13:41:02 ICT" name="testLoginWithValidCredential" finished-at="2026-03-10T13:41:02 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCredential -->
+      </class> <!-- bt21.LoginTest -->
+    </test> <!-- Regression Group Run -->
+  </suite> <!-- BT2.1 Suite -->
+</testng-results>

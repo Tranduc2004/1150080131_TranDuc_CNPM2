@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="BT2.1 Suite" verbose="1">
+    <test name="Regression Group Run">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="bt21.LoginTest"/>
+            <class name="bt21.CartTest"/>
+            <class name="bt21.CheckoutTest"/>
+        </classes>
+    </test>
+</suite>

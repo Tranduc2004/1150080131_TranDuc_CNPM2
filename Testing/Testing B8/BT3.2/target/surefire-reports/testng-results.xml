@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T14:14:12 ICT" name="BT3.2 Coverage Suite" finished-at="2026-03-10T14:14:13 ICT" duration-ms="53">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T14:14:12 ICT" name="TinhTienNuoc Branch Coverage" finished-at="2026-03-10T14:14:13 ICT" duration-ms="53">
+      <class name="bt32.TinhTienNuocBranchCoverageTest">
+        <test-method signature="tc1_invalidSoM3()[pri:0, instance:bt32.TinhTienNuocBranchCoverageTest@63021689]" started-at="2026-03-10T14:14:13 ICT" name="tc1_invalidSoM3" description="TC1 - N1 True: soM3 &lt;= 0" finished-at="2026-03-10T14:14:13 ICT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_invalidSoM3 -->
+        <test-method signature="tc2_hoNgheo()[pri:0, instance:bt32.TinhTienNuocBranchCoverageTest@63021689]" started-at="2026-03-10T14:14:13 ICT" name="tc2_hoNgheo" description="TC2 - N2 True: ho_ngheo" finished-at="2026-03-10T14:14:13 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2_hoNgheo -->
+        <test-method signature="tc3_danCuBac1()[pri:0, instance:bt32.TinhTienNuocBranchCoverageTest@63021689]" started-at="2026-03-10T14:14:13 ICT" name="tc3_danCuBac1" description="TC3 - N3 True, N4 True: dan_cu &lt;=10" finished-at="2026-03-10T14:14:13 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3_danCuBac1 -->
+        <test-method signature="tc4_danCuBac2()[pri:0, instance:bt32.TinhTienNuocBranchCoverageTest@63021689]" started-at="2026-03-10T14:14:13 ICT" name="tc4_danCuBac2" description="TC4 - N4 False, N5 True: dan_cu 11..20" finished-at="2026-03-10T14:14:13 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4_danCuBac2 -->
+        <test-method signature="tc5_danCuBac3()[pri:0, instance:bt32.TinhTienNuocBranchCoverageTest@63021689]" started-at="2026-03-10T14:14:13 ICT" name="tc5_danCuBac3" description="TC5 - N5 False: dan_cu &gt;20" finished-at="2026-03-10T14:14:13 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5_danCuBac3 -->
+        <test-method signature="tc6_kinhDoanh()[pri:0, instance:bt32.TinhTienNuocBranchCoverageTest@63021689]" started-at="2026-03-10T14:14:13 ICT" name="tc6_kinhDoanh" description="TC6 - N3 False: kinh_doanh" finished-at="2026-03-10T14:14:13 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc6_kinhDoanh -->
+      </class> <!-- bt32.TinhTienNuocBranchCoverageTest -->
+    </test> <!-- TinhTienNuoc Branch Coverage -->
+  </suite> <!-- BT3.2 Coverage Suite -->
+</testng-results>

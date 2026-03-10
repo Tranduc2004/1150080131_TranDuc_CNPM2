@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T13:08:17 ICT" name="BT1.2 SauceDemo Suite" finished-at="2026-03-10T13:08:30 ICT" duration-ms="13526">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T13:08:17 ICT" name="Title Test" finished-at="2026-03-10T13:08:30 ICT" duration-ms="13526">
+      <class name="dtm.TitleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.TitleTest@5fdcaa40]" started-at="2026-03-10T13:08:17 ICT" name="setUp" finished-at="2026-03-10T13:08:20 ICT" duration-ms="3244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFormDisplayed()[pri:0, instance:dtm.TitleTest@5fdcaa40]" started-at="2026-03-10T13:08:20 ICT" name="testLoginFormDisplayed" description="Kiem thu form dang nhap hien thi" finished-at="2026-03-10T13:08:20 ICT" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFormDisplayed -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.TitleTest@5fdcaa40]" started-at="2026-03-10T13:08:20 ICT" name="tearDown" finished-at="2026-03-10T13:08:20 ICT" duration-ms="322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginFormDisplayed status=SUCCESS method=TitleTest.testLoginFormDisplayed()[pri:0, instance:dtm.TitleTest@5fdcaa40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.TitleTest@5fdcaa40]" started-at="2026-03-10T13:08:20 ICT" name="setUp" finished-at="2026-03-10T13:08:24 ICT" duration-ms="3707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPageSource()[pri:0, instance:dtm.TitleTest@5fdcaa40]" started-at="2026-03-10T13:08:24 ICT" name="testPageSource" description="Kiem thu source code trang" finished-at="2026-03-10T13:08:24 ICT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageSource -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.TitleTest@5fdcaa40]" started-at="2026-03-10T13:08:24 ICT" name="tearDown" finished-at="2026-03-10T13:08:24 ICT" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPageSource status=SUCCESS method=TitleTest.testPageSource()[pri:0, instance:dtm.TitleTest@5fdcaa40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.TitleTest@5fdcaa40]" started-at="2026-03-10T13:08:24 ICT" name="setUp" finished-at="2026-03-10T13:08:27 ICT" duration-ms="2654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTitle()[pri:0, instance:dtm.TitleTest@5fdcaa40]" started-at="2026-03-10T13:08:27 ICT" name="testTitle" description="Kiem thu tieu de trang chu" finished-at="2026-03-10T13:08:27 ICT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.TitleTest@5fdcaa40]" started-at="2026-03-10T13:08:27 ICT" name="tearDown" finished-at="2026-03-10T13:08:27 ICT" duration-ms="292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTitle status=SUCCESS method=TitleTest.testTitle()[pri:0, instance:dtm.TitleTest@5fdcaa40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dtm.TitleTest@5fdcaa40]" started-at="2026-03-10T13:08:27 ICT" name="setUp" finished-at="2026-03-10T13:08:30 ICT" duration-ms="2590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testURL()[pri:0, instance:dtm.TitleTest@5fdcaa40]" started-at="2026-03-10T13:08:30 ICT" name="testURL" description="Kiem thu URL trang chu" finished-at="2026-03-10T13:08:30 ICT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:dtm.TitleTest@5fdcaa40]" started-at="2026-03-10T13:08:30 ICT" name="tearDown" finished-at="2026-03-10T13:08:30 ICT" duration-ms="277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testURL status=SUCCESS method=TitleTest.testURL()[pri:0, instance:dtm.TitleTest@5fdcaa40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dtm.TitleTest -->
+    </test> <!-- Title Test -->
+  </suite> <!-- BT1.2 SauceDemo Suite -->
+</testng-results>

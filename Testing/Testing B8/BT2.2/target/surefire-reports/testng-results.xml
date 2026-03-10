@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T13:48:21 ICT" name="BT2.2 Parallel Suite" finished-at="2026-03-10T13:48:37 ICT" duration-ms="15758">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T13:48:21 ICT" name="Parallel Login And Cart Tests" finished-at="2026-03-10T13:48:37 ICT" duration-ms="15758">
+      <class name="bt22.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:bt22.tests.LoginTest@3ce1e309]" started-at="2026-03-10T13:48:21 ICT" name="setUp" finished-at="2026-03-10T13:48:23 ICT" duration-ms="2177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginPageDisplayed()[pri:0, instance:bt22.tests.LoginTest@3ce1e309]" started-at="2026-03-10T13:48:23 ICT" name="testLoginPageDisplayed" finished-at="2026-03-10T13:48:36 ICT" duration-ms="12796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bt22.tests.LoginTest@3ce1e309]" started-at="2026-03-10T13:48:36 ICT" name="tearDown" finished-at="2026-03-10T13:48:36 ICT" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bt22.tests.LoginTest -->
+      <class name="bt22.tests.CartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:bt22.tests.CartTest@74fe5c40]" started-at="2026-03-10T13:48:21 ICT" name="setUp" finished-at="2026-03-10T13:48:23 ICT" duration-ms="2216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCartIconVisibleAfterLogin()[pri:0, instance:bt22.tests.CartTest@74fe5c40]" started-at="2026-03-10T13:48:23 ICT" name="testCartIconVisibleAfterLogin" finished-at="2026-03-10T13:48:37 ICT" duration-ms="13276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartIconVisibleAfterLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bt22.tests.CartTest@74fe5c40]" started-at="2026-03-10T13:48:37 ICT" name="tearDown" finished-at="2026-03-10T13:48:37 ICT" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bt22.tests.CartTest -->
+    </test> <!-- Parallel Login And Cart Tests -->
+  </suite> <!-- BT2.2 Parallel Suite -->
+</testng-results>

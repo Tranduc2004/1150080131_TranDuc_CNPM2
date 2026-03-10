@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T14:25:24 ICT" name="BT4.1 Basis Path Suite" finished-at="2026-03-10T14:25:24 ICT" duration-ms="52">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T14:25:24 ICT" name="TinhPhiShip Basis Paths" finished-at="2026-03-10T14:25:24 ICT" duration-ms="52">
+      <class name="bt41.TinhPhiShipBasisPathTest">
+        <test-method signature="bp1_invalidWeight_throwsException()[pri:0, instance:bt41.TinhPhiShipBasisPathTest@3e92efc3]" started-at="2026-03-10T14:25:24 ICT" name="bp1_invalidWeight_throwsException" description="BP1: D1=True -&gt; throw" finished-at="2026-03-10T14:25:24 ICT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bp1_invalidWeight_throwsException -->
+        <test-method signature="bp2_noiThanh_noExtra_notMember()[pri:0, instance:bt41.TinhPhiShipBasisPathTest@3e92efc3]" started-at="2026-03-10T14:25:24 ICT" name="bp2_noiThanh_noExtra_notMember" description="BP2: D1=F, D2=T, D3=F, D7=F" finished-at="2026-03-10T14:25:24 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bp2_noiThanh_noExtra_notMember -->
+        <test-method signature="bp3_noiThanh_extra_notMember()[pri:0, instance:bt41.TinhPhiShipBasisPathTest@3e92efc3]" started-at="2026-03-10T14:25:24 ICT" name="bp3_noiThanh_extra_notMember" description="BP3: D1=F, D2=T, D3=T, D7=F" finished-at="2026-03-10T14:25:24 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bp3_noiThanh_extra_notMember -->
+        <test-method signature="bp4_ngoaiThanh_noExtra_notMember()[pri:0, instance:bt41.TinhPhiShipBasisPathTest@3e92efc3]" started-at="2026-03-10T14:25:24 ICT" name="bp4_ngoaiThanh_noExtra_notMember" description="BP4: D1=F, D2=F, D4=T, D5=F, D7=F" finished-at="2026-03-10T14:25:24 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bp4_ngoaiThanh_noExtra_notMember -->
+        <test-method signature="bp5_ngoaiThanh_extra_notMember()[pri:0, instance:bt41.TinhPhiShipBasisPathTest@3e92efc3]" started-at="2026-03-10T14:25:24 ICT" name="bp5_ngoaiThanh_extra_notMember" description="BP5: D1=F, D2=F, D4=T, D5=T, D7=F" finished-at="2026-03-10T14:25:24 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bp5_ngoaiThanh_extra_notMember -->
+        <test-method signature="bp6_khacVung_noExtra_notMember()[pri:0, instance:bt41.TinhPhiShipBasisPathTest@3e92efc3]" started-at="2026-03-10T14:25:24 ICT" name="bp6_khacVung_noExtra_notMember" description="BP6: D1=F, D2=F, D4=F, D6=F, D7=F" finished-at="2026-03-10T14:25:24 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bp6_khacVung_noExtra_notMember -->
+        <test-method signature="bp7_khacVung_extra_notMember()[pri:0, instance:bt41.TinhPhiShipBasisPathTest@3e92efc3]" started-at="2026-03-10T14:25:24 ICT" name="bp7_khacVung_extra_notMember" description="BP7: D1=F, D2=F, D4=F, D6=T, D7=F" finished-at="2026-03-10T14:25:24 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bp7_khacVung_extra_notMember -->
+        <test-method signature="bp8_memberDiscountPath()[pri:0, instance:bt41.TinhPhiShipBasisPathTest@3e92efc3]" started-at="2026-03-10T14:25:24 ICT" name="bp8_memberDiscountPath" description="BP8: D1=F, D2=T, D3=F, D7=T" finished-at="2026-03-10T14:25:24 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bp8_memberDiscountPath -->
+      </class> <!-- bt41.TinhPhiShipBasisPathTest -->
+    </test> <!-- TinhPhiShip Basis Paths -->
+  </suite> <!-- BT4.1 Basis Path Suite -->
+</testng-results>

@@ -1,0 +1,4 @@
+framework\base\BasePage.class
+framework\base\BaseTest.class
+framework\utils\ScreenshotUtil.class
+framework\config\ConfigReader.class

@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.091" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT2\target\test-classes;D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT2\target\classes;C:\Users\trand\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\trand\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\trand\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\trand\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\trand\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\trand\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\trand\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\trand\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\trand\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\trand\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\trand\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\trand\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\trand\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\trand\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\trand\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\trand\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\trand\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\trand\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\trand\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\trand\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\trand\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\trand\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\trand\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Saigon"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\trand\AppData\Local\Temp\surefire10014309958629740010\surefirebooter-20260324134113025_3.jar C:\Users\trand\AppData\Local\Temp\surefire10014309958629740010 2026-03-24T13-41-12_889-jvmRun1 surefire-20260324134113025_1tmp surefire_0-20260324134113025_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT2\target\test-classes;D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT2\target\classes;C:\Users\trand\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\trand\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\trand\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\trand\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\trand\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\trand\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\trand\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\trand\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\trand\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\trand\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\trand\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\trand\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\trand\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\trand\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\trand\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\trand\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\trand\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\trand\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\trand\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\trand\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\trand\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\trand\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\trand\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\trand"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\trand\AppData\Local\Temp\surefire10014309958629740010\surefirebooter-20260324134113025_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.9+7-LTS-338"/>
+    <property name="user.name" value="trand"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\trand\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\trand\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.9"/>
+    <property name="user.dir" value="D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\trand\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\trand\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\trand\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Eclipse Adoptium\jdk-25.0.2.10-hotspot\bin;C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Tool;C:\flutter\bin;C:\Program Files\Docker\Docker\resources\bin;%JAVA_HOME%\bin;C:\Program Files\cursor\resources\app\bin;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\dotnet\;C:\apache-maven-3.9.12-bin\apache-maven-3.9.12\bin;C:\Program Files\Java\jdk-21\bin;C:\Users\trand\AppData\Local\Microsoft\WindowsApps;C:\Users\trand\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\trand\AppData\Roaming\npm;C:\Users\trand\AppData\Local\Programs\mongosh\;C:\Program Files (x86)\MongoDB Atlas CLI\;C:\Tool;C:\Users\trand\AppData\Local\Programs\Kiro\bin;C:\Users\trand\.dotnet\tools;C:\Users\trand\AppData\Local\Python\bin;C:\Users\trand\AppData\Local\Programs\Antigravity\bin;c:\Users\trand\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.9+7-LTS-338"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testCreateUser" classname="bt2.CrudUserApiTest" time="2.346">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=pub_0e30a5c7ce45a945c2000c6925cb61a3
+				Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "BT2_User_04d79265-423f-42c6-9504-26baa323292e",
+    "job": "QA Engineer"
+}
+HTTP/1.1 201 Created
+Date: Tue, 24 Mar 2026 06:41:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 507
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"1fb-cpRxMpvSkCk5DbG2jtvbW9FQ9sw"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 18
+Ratelimit-Reset: 39
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=n7GkCb%2BYfFYdkauotGoFGkWl9TRLUA8OEHJ5I0VtnRg%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774334475"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=n7GkCb%2BYfFYdkauotGoFGkWl9TRLUA8OEHJ5I0VtnRg%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774334475"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 218
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Create your own API with custom data - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:11:20.534Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: 806cb042-7641-44d2-b424-4db77be6f5f5
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: DYNAMIC
+CF-RAY: 9e13b069ae690d78-SIN
+
+{
+    "name": "BT2_User_04d79265-423f-42c6-9504-26baa323292e",
+    "job": "QA Engineer",
+    "id": "226",
+    "createdAt": "2026-03-24T06:41:15.893Z",
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_b",
+        "message": "Need more than fake data? Projects give you real CRUD + auth in minutes.",
+        "cta": {
+            "label": "Get started",
+            "url": "https://app.reqres.in/upgrade"
+        },
+        "context": "legacy_success"
+    }
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testDeleteUser" classname="bt2.CrudUserApiTest" time="0.929">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=pub_0e30a5c7ce45a945c2000c6925cb61a3
+				Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "DELETE_Initial_2e1931d1-b27d-420d-acf5-3f12ff39ae3f",
+    "job": "QA"
+}
+HTTP/1.1 201 Created
+Date: Tue, 24 Mar 2026 06:41:17 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 504
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"1f8-nJm9oaIAzqOKNAboL542lrJRaFs"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 19
+Ratelimit-Reset: 60
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=rxylRkIihFbKQI%2Fv087l7I8OdHPYyb6GVvJ0oJvoI%2FQ%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774334477"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=rxylRkIihFbKQI%2Fv087l7I8OdHPYyb6GVvJ0oJvoI%2FQ%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774334477"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 217
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Need more than /api/users? Build custom collections - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:11:20.534Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: e26fbbb7-d874-e89b-5065-3076294db700
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: DYNAMIC
+CF-RAY: 9e13b06f9baa87ef-SIN
+
+{
+    "name": "DELETE_Initial_2e1931d1-b27d-420d-acf5-3f12ff39ae3f",
+    "job": "QA",
+    "id": "750",
+    "createdAt": "2026-03-24T06:41:17.006Z",
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_b",
+        "message": "Need more than fake data? Projects give you real CRUD + auth in minutes.",
+        "cta": {
+            "label": "Get started",
+            "url": "https://app.reqres.in/upgrade"
+        },
+        "context": "legacy_success"
+    }
+}
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/750
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=pub_0e30a5c7ce45a945c2000c6925cb61a3
+				Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Tue, 24 Mar 2026 06:41:17 GMT
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 17
+Ratelimit-Reset: 37
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=rxylRkIihFbKQI%2Fv087l7I8OdHPYyb6GVvJ0oJvoI%2FQ%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774334477"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=rxylRkIihFbKQI%2Fv087l7I8OdHPYyb6GVvJ0oJvoI%2FQ%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774334477"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 216
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Generate a complete backend from a description - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:11:20.534Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: d7aeeabd-ea9e-33bc-3d34-2ac20f5f0120
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: DYNAMIC
+CF-RAY: 9e13b07349c83104-SIN
+]]></system-out>
+  </testcase>
+  <testcase name="testPatchUserPartialUpdate" classname="bt2.CrudUserApiTest" time="1.037">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=pub_0e30a5c7ce45a945c2000c6925cb61a3
+				Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "PATCH_Initial_a2ba9556-e7ad-49e3-9352-f4389a8268d8",
+    "job": "Manual QA"
+}
+HTTP/1.1 201 Created
+Date: Tue, 24 Mar 2026 06:41:18 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 510
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"1fe-+3W1cZovnNN2sAiHymnCvRKhsTE"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 19
+Ratelimit-Reset: 60
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=rxylRkIihFbKQI%2Fv087l7I8OdHPYyb6GVvJ0oJvoI%2FQ%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774334477"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=rxylRkIihFbKQI%2Fv087l7I8OdHPYyb6GVvJ0oJvoI%2FQ%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774334477"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 215
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Add real user auth to your app with magic codes - reqres.in/docs
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:11:20.534Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: cae52547-6789-f14e-c016-fc7784c3f9ef
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: DYNAMIC
+CF-RAY: 9e13b0755e99ce16-SIN
+
+{
+    "name": "PATCH_Initial_a2ba9556-e7ad-49e3-9352-f4389a8268d8",
+    "job": "Manual QA",
+    "id": "341",
+    "createdAt": "2026-03-24T06:41:17.943Z",
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_b",
+        "message": "Need more than fake data? Projects give you real CRUD + auth in minutes.",
+        "cta": {
+            "label": "Get started",
+            "url": "https://app.reqres.in/upgrade"
+        },
+        "context": "legacy_success"
+    }
+}
+Request method:	PATCH
+Request URI:	https://reqres.in/api/users/341
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=pub_0e30a5c7ce45a945c2000c6925cb61a3
+				Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "job": "Automation QA"
+}
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 06:41:18 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"1bb-B3tNGSb7u4sLigb10DJJyJHMIqo"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 19
+Ratelimit-Reset: 60
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=bkj2zRwyFmtZ3KCR%2B3c%2B3PjpaEtdD9GkGE70KxMT1bU%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774334478"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=bkj2zRwyFmtZ3KCR%2B3c%2B3PjpaEtdD9GkGE70KxMT1bU%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774334478"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 214
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Create your own API with custom data - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:11:20.534Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: b5047f6c-473d-1496-36ae-f745ad99bf06
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: DYNAMIC
+Content-Encoding: gzip
+CF-RAY: 9e13b0787d478e41-SIN
+
+{
+    "job": "Automation QA",
+    "updatedAt": "2026-03-24T06:41:18.442Z",
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_b",
+        "message": "Need more than fake data? Projects give you real CRUD + auth in minutes.",
+        "cta": {
+            "label": "Get started",
+            "url": "https://app.reqres.in/upgrade"
+        },
+        "context": "legacy_success"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testPostThenGetVerify" classname="bt2.CrudUserApiTest" time="0.982">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=pub_0e30a5c7ce45a945c2000c6925cb61a3
+				Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 06:41:18 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"2ee-Zr5oqRGXSANrBizT/MNHCB44AuQ"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 17
+Ratelimit-Reset: 38
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=bkj2zRwyFmtZ3KCR%2B3c%2B3PjpaEtdD9GkGE70KxMT1bU%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774334478"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=bkj2zRwyFmtZ3KCR%2B3c%2B3PjpaEtdD9GkGE70KxMT1bU%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774334478"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 213
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Generate a complete backend from a description - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:11:20.534Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: d9ea83ba-c4f1-baa6-f2a9-3e2057d69db6
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: BYPASS
+Content-Encoding: gzip
+CF-RAY: 9e13b07bbd503e3d-SIN
+
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."
+    },
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_b",
+        "message": "Need more than fake data? Projects give you real CRUD + auth in minutes.",
+        "cta": {
+            "label": "Get started",
+            "url": "https://app.reqres.in/upgrade"
+        },
+        "context": "legacy_success"
+    }
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=pub_0e30a5c7ce45a945c2000c6925cb61a3
+				Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Janet",
+    "job": "API Tester"
+}
+HTTP/1.1 201 Created
+Date: Tue, 24 Mar 2026 06:41:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 466
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"1d2-wQdRudqlx68TILDzMU5NxGBEjIU"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 18
+Ratelimit-Reset: 59
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=JVGFcwL%2BQhLZB7cJMpEDeRa%2F%2Bmrs4oZ7Hi8MN5g4OSU%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774334479"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=JVGFcwL%2BQhLZB7cJMpEDeRa%2F%2Bmrs4oZ7Hi8MN5g4OSU%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774334479"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 212
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Generate a complete backend from a description - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:11:20.534Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: 71537e73-ea63-89e8-7f76-407929435051
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: DYNAMIC
+CF-RAY: 9e13b07def98ce1d-SIN
+
+{
+    "name": "Janet",
+    "job": "API Tester",
+    "id": "509",
+    "createdAt": "2026-03-24T06:41:19.124Z",
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_b",
+        "message": "Need more than fake data? Projects give you real CRUD + auth in minutes.",
+        "cta": {
+            "label": "Get started",
+            "url": "https://app.reqres.in/upgrade"
+        },
+        "context": "legacy_success"
+    }
+}
+Request method:	GET
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=pub_0e30a5c7ce45a945c2000c6925cb61a3
+				Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 06:41:19 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"2ee-Zr5oqRGXSANrBizT/MNHCB44AuQ"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 16
+Ratelimit-Reset: 37
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=JVGFcwL%2BQhLZB7cJMpEDeRa%2F%2Bmrs4oZ7Hi8MN5g4OSU%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774334479"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=JVGFcwL%2BQhLZB7cJMpEDeRa%2F%2Bmrs4oZ7Hi8MN5g4OSU%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774334479"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 211
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Test against your own data, not fixtures - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:11:20.534Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: 6ee84236-e54b-bcc1-7624-5c7558341779
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: BYPASS
+Content-Encoding: gzip
+CF-RAY: 9e13b07ffa7bfde6-SIN
+
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."
+    },
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_b",
+        "message": "Need more than fake data? Projects give you real CRUD + auth in minutes.",
+        "cta": {
+            "label": "Get started",
+            "url": "https://app.reqres.in/upgrade"
+        },
+        "context": "legacy_success"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUserByPut" classname="bt2.CrudUserApiTest" time="0.834">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=pub_0e30a5c7ce45a945c2000c6925cb61a3
+				Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "PUT_Initial_4572444d-c3bf-4206-9073-6c4df58b3337",
+    "job": "Junior QA"
+}
+HTTP/1.1 201 Created
+Date: Tue, 24 Mar 2026 06:41:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 508
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"1fc-2T7IL8/5TM46bS88nl6KfYt+ulg"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 16
+Ratelimit-Reset: 35
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=JVGFcwL%2BQhLZB7cJMpEDeRa%2F%2Bmrs4oZ7Hi8MN5g4OSU%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774334479"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=JVGFcwL%2BQhLZB7cJMpEDeRa%2F%2Bmrs4oZ7Hi8MN5g4OSU%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774334479"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 210
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Test against your own data, not fixtures - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:11:20.534Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: 6ae58aac-1486-c72c-191a-66390cebc982
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: DYNAMIC
+CF-RAY: 9e13b081ed060ad8-SIN
+
+{
+    "name": "PUT_Initial_4572444d-c3bf-4206-9073-6c4df58b3337",
+    "job": "Junior QA",
+    "id": "301",
+    "createdAt": "2026-03-24T06:41:19.766Z",
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_b",
+        "message": "Need more than fake data? Projects give you real CRUD + auth in minutes.",
+        "cta": {
+            "label": "Get started",
+            "url": "https://app.reqres.in/upgrade"
+        },
+        "context": "legacy_success"
+    }
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/301
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=pub_0e30a5c7ce45a945c2000c6925cb61a3
+				Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "PUT_Updated",
+    "job": "Senior QA"
+}
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 06:41:20 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"1cc-jinclYSNi3+uc/jEF21ZKJu95lM"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 19
+Ratelimit-Reset: 60
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=YEXgrbF%2FaYu%2Farxos31zzdqBEf3coKQ%2BF%2BX5OyaTrlU%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774334480"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=YEXgrbF%2FaYu%2Farxos31zzdqBEf3coKQ%2BF%2BX5OyaTrlU%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774334480"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 209
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Add real user auth to your app with magic codes - reqres.in/docs
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:11:20.534Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: 39baf1aa-295e-77f7-94b2-ac3afeedcbbb
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: DYNAMIC
+Content-Encoding: gzip
+CF-RAY: 9e13b083fd30fdc0-SIN
+
+{
+    "name": "PUT_Updated",
+    "job": "Senior QA",
+    "updatedAt": "2026-03-24T06:41:20.267Z",
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_b",
+        "message": "Need more than fake data? Projects give you real CRUD + auth in minutes.",
+        "cta": {
+            "label": "Get started",
+            "url": "https://app.reqres.in/upgrade"
+        },
+        "context": "legacy_success"
+    }
+}
+]]></system-out>
+  </testcase>
+</testsuite>

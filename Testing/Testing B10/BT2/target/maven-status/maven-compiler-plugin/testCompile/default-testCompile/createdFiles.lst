@@ -1,0 +1,4 @@
+bt2\ApiBaseTest.class
+bt2\CrudUserApiTest.class
+bt2\model\CreateUserRequest.class
+bt2\model\UserResponse.class

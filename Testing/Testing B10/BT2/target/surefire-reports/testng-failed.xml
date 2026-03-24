@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BT2 API Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="CRUD User API Tests(failed)" verbose="0">
+    <classes>
+      <class name="bt2.CrudUserApiTest">
+        <methods>
+          <include name="testCreateUser"/>
+          <include name="testPatchUserPartialUpdate"/>
+          <include name="testDeleteUser"/>
+          <include name="setupApiSpec"/>
+          <include name="testPostThenGetVerify"/>
+          <include name="testUpdateUserByPut"/>
+        </methods>
+      </class> <!-- bt2.CrudUserApiTest -->
+    </classes>
+  </test> <!-- CRUD User API Tests(failed) -->
+</suite> <!-- Failed suite [BT2 API Suite] -->

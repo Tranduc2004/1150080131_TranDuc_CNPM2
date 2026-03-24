@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BT5 API Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Performance Assertion and SLA Monitoring Tests(failed)" verbose="0">
+    <classes>
+      <class name="bt5.PerformanceSlaTest">
+        <methods>
+          <include name="setupApiSpec"/>
+          <include name="testSlaForMainEndpoints" invocation-numbers="4"/>
+        </methods>
+      </class> <!-- bt5.PerformanceSlaTest -->
+    </classes>
+  </test> <!-- Performance Assertion and SLA Monitoring Tests(failed) -->
+</suite> <!-- Failed suite [BT5 API Suite] -->

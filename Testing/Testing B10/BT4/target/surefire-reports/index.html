@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-BT4_API_Suite" class="navigator-link">
+              <span class="suite-name border-passed">BT4 API Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-BT4_API_Suite" class="navigator-link ">
+                    <span>D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT4\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-BT4_API_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-BT4_API_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-BT4_API_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-BT4_API_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-BT4_API_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-BT4_API_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BT4_API_Suite" class="hide-methods passed suite-BT4_API_Suite"> (hide)</a> <!-- hide-methods passed suite-BT4_API_Suite -->
+                      <a href="#" panel-name="suite-BT4_API_Suite" class="show-methods passed suite-BT4_API_Suite"> (show)</a> <!-- show-methods passed suite-BT4_API_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-BT4_API_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BT4_API_Suite" title="bt4.AuthorizationTest" class="method navigator-link" hash-for-method="testLoginMissingEmail">testLoginMissingEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BT4_API_Suite" title="bt4.AuthorizationTest" class="method navigator-link" hash-for-method="testLoginMissingPassword">testLoginMissingPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BT4_API_Suite" title="bt4.LoginDataDrivenTest" class="method navigator-link" hash-for-method="testLoginScenarios(eve.holt@reqres.in, , 400, Missing password)">testLoginScenarios(eve.holt@reqres.in, , 400, Missing password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BT4_API_Suite" title="bt4.LoginDataDrivenTest" class="method navigator-link" hash-for-method="testLoginScenarios(, cityslicka, 400, Missing email or username)">testLoginScenarios(, cityslicka, 400, Missing email or username)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BT4_API_Suite" title="bt4.LoginDataDrivenTest" class="method navigator-link" hash-for-method="testLoginScenarios(eve.holt@reqres.in, cityslicka, 200, null)">testLoginScenarios(eve.holt@reqres.in, cityslicka, 200, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BT4_API_Suite" title="bt4.LoginDataDrivenTest" class="method navigator-link" hash-for-method="testLoginScenarios(invalid-email, pass123, 400, user not found)">testLoginScenarios(invalid-email, pass123, 400, user not found)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BT4_API_Suite" title="bt4.LoginDataDrivenTest" class="method navigator-link" hash-for-method="testLoginScenarios(notexist@reqres.in, wrongpass, 400, user not found)">testLoginScenarios(notexist@reqres.in, wrongpass, 400, user not found)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BT4_API_Suite" title="bt4.AuthorizationTest" class="method navigator-link" hash-for-method="testLoginSuccess">testLoginSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BT4_API_Suite" title="bt4.AuthorizationTest" class="method navigator-link" hash-for-method="testRegisterMissingPassword">testRegisterMissingPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BT4_API_Suite" title="bt4.AuthorizationTest" class="method navigator-link" hash-for-method="testRegisterSuccess">testRegisterSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BT4_API_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BT4_API_Suite" class="panel BT4_API_Suite">
+          <div class="suite-BT4_API_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bt4.AuthorizationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginMissingEmail">
+                  </a> <!-- testLoginMissingEmail -->
+                  <span class="method-name">testLoginMissingEmail</span>
+                  <em>
+(BT4.A3 - Login thieu email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginMissingPassword">
+                  </a> <!-- testLoginMissingPassword -->
+                  <span class="method-name">testLoginMissingPassword</span>
+                  <em>
+(BT4.A2 - Login thieu password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginSuccess">
+                  </a> <!-- testLoginSuccess -->
+                  <span class="method-name">testLoginSuccess</span>
+                  <em>
+(BT4.A1 - Login thanh cong)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterMissingPassword">
+                  </a> <!-- testRegisterMissingPassword -->
+                  <span class="method-name">testRegisterMissingPassword</span>
+                  <em>
+(BT4.A5 - Register thieu password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterSuccess">
+                  </a> <!-- testRegisterSuccess -->
+                  <span class="method-name">testRegisterSuccess</span>
+                  <em>
+(BT4.A4 - Register thanh cong)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BT4_API_Suite-class-passed -->
+          <div class="suite-BT4_API_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bt4.LoginDataDrivenTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginScenarios(eve.holt@reqres.in, , 400, Missing password)">
+                  </a> <!-- testLoginScenarios(eve.holt@reqres.in, , 400, Missing password) -->
+                  <span class="method-name">testLoginScenarios</span>
+                  <span class="parameters">(eve.holt@reqres.in,,400,Missing password)</span>
+                  <em>
+(BT4.B - Data-driven login error handling)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginScenarios(, cityslicka, 400, Missing email or username)">
+                  </a> <!-- testLoginScenarios(, cityslicka, 400, Missing email or username) -->
+                  <span class="method-name">testLoginScenarios</span>
+                  <span class="parameters">(,cityslicka,400,Missing email or username)</span>
+                  <em>
+(BT4.B - Data-driven login error handling)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginScenarios(eve.holt@reqres.in, cityslicka, 200, null)">
+                  </a> <!-- testLoginScenarios(eve.holt@reqres.in, cityslicka, 200, null) -->
+                  <span class="method-name">testLoginScenarios</span>
+                  <span class="parameters">(eve.holt@reqres.in,cityslicka,200,null)</span>
+                  <em>
+(BT4.B - Data-driven login error handling)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginScenarios(invalid-email, pass123, 400, user not found)">
+                  </a> <!-- testLoginScenarios(invalid-email, pass123, 400, user not found) -->
+                  <span class="method-name">testLoginScenarios</span>
+                  <span class="parameters">(invalid-email,pass123,400,user not found)</span>
+                  <em>
+(BT4.B - Data-driven login error handling)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginScenarios(notexist@reqres.in, wrongpass, 400, user not found)">
+                  </a> <!-- testLoginScenarios(notexist@reqres.in, wrongpass, 400, user not found) -->
+                  <span class="method-name">testLoginScenarios</span>
+                  <span class="parameters">(notexist@reqres.in,wrongpass,400,user not found)</span>
+                  <em>
+(BT4.B - Data-driven login error handling)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BT4_API_Suite-class-passed -->
+        </div> <!-- panel BT4_API_Suite -->
+        <div panel-name="test-xml-BT4_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT4\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;BT4 API Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Authorization and Error Handling Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;bt4.AuthorizationTest&quot;/&gt;
+      &lt;class name=&quot;bt4.LoginDataDrivenTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Authorization and Error Handling Tests --&gt;
+&lt;/suite&gt; &lt;!-- BT4 API Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BT4_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BT4 API Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Authorization and Error Handling Tests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BT4_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BT4 API Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BT4_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BT4 API Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BT4_API_Suite');
+function tableData_BT4_API_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testLoginMissingEmail')
+data.setCell(0, 2, 'bt4.AuthorizationTest')
+data.setCell(0, 3, 2293);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLoginScenarios')
+data.setCell(1, 2, 'bt4.LoginDataDrivenTest')
+data.setCell(1, 3, 551);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLoginMissingPassword')
+data.setCell(2, 2, 'bt4.AuthorizationTest')
+data.setCell(2, 3, 535);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testLoginScenarios')
+data.setCell(3, 2, 'bt4.LoginDataDrivenTest')
+data.setCell(3, 3, 535);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLoginSuccess')
+data.setCell(4, 2, 'bt4.AuthorizationTest')
+data.setCell(4, 3, 519);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testLoginScenarios')
+data.setCell(5, 2, 'bt4.LoginDataDrivenTest')
+data.setCell(5, 3, 518);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testLoginScenarios')
+data.setCell(6, 2, 'bt4.LoginDataDrivenTest')
+data.setCell(6, 3, 516);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testRegisterSuccess')
+data.setCell(7, 2, 'bt4.AuthorizationTest')
+data.setCell(7, 3, 515);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testLoginScenarios')
+data.setCell(8, 2, 'bt4.LoginDataDrivenTest')
+data.setCell(8, 3, 339);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testRegisterMissingPassword')
+data.setCell(9, 2, 'bt4.AuthorizationTest')
+data.setCell(9, 3, 319);
+window.suiteTableData['BT4_API_Suite']= { tableData: data, tableDiv: 'times-div-BT4_API_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-BT4_API_Suite">
+              </div> <!-- times-div-BT4_API_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BT4_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BT4 API Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BT4_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BT4_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">bt4.AuthorizationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupApiSpec</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLoginMissingEmail</span>
+                <span class="method-start">461 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginMissingPassword</span>
+                <span class="method-start">2757 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginSuccess</span>
+                <span class="method-start">3293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegisterMissingPassword</span>
+                <span class="method-start">3813 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegisterSuccess</span>
+                <span class="method-start">4133 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">bt4.LoginDataDrivenTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupApiSpec</span>
+                <span class="method-start">4651 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLoginScenarios(eve.holt@reqres.in, cityslicka, 200, null)</span>
+                <span class="method-start">4656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginScenarios(eve.holt@reqres.in, , 400, Missing password)</span>
+                <span class="method-start">5207 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginScenarios(, cityslicka, 400, Missing email or username)</span>
+                <span class="method-start">5725 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginScenarios(notexist@reqres.in, wrongpass, 400, user not found)</span>
+                <span class="method-start">6261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginScenarios(invalid-email, pass123, 400, user not found)</span>
+                <span class="method-start">6601 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

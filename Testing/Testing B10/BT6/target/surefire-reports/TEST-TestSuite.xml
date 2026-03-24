@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="12.973" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\trand\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT6\target\test-classes;D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT6\target\classes;C:\Users\trand\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\trand\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\trand\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\trand\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\trand\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\trand\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\trand\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\trand\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\trand\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\trand\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\trand\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\trand\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\trand\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\trand\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\trand\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\trand\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\trand\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\trand\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\trand\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\trand\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\trand\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\trand\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\trand\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\trand\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\trand\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\trand\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\trand\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\trand\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\trand\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\trand\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\trand\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\trand\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\trand\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\trand\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\trand\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\trand\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\trand\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\trand\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\trand\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\trand\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\trand\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\trand\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\trand\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\trand\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\trand\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\trand\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\trand\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\trand\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Saigon"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\trand\AppData\Local\Temp\surefire3653057726593696403\surefirebooter-20260324153428194_3.jar C:\Users\trand\AppData\Local\Temp\surefire3653057726593696403 2026-03-24T15-34-28_058-jvmRun1 surefire-20260324153428194_1tmp surefire_0-20260324153428194_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT6\target\test-classes;D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT6\target\classes;C:\Users\trand\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\trand\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\trand\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\trand\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\trand\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\trand\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\trand\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\trand\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\trand\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\trand\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\trand\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\trand\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\trand\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\trand\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\trand\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\trand\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\trand\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\trand\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\trand\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\trand\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\trand\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\trand\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\trand\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\trand\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\trand\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\trand\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\trand\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\trand\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\trand\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\trand\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\trand\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\trand\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\trand\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\trand\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\trand\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\trand\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\trand\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\trand\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\trand\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\trand\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\trand\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\trand\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\trand\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\trand\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\trand\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\trand\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\trand\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\trand\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\trand\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\trand\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\trand"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT6"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\trand\AppData\Local\Temp\surefire3653057726593696403\surefirebooter-20260324153428194_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.9+7-LTS-338"/>
+    <property name="user.name" value="trand"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\trand\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\trand\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.9"/>
+    <property name="user.dir" value="D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT6"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="ui.headless" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\trand\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\trand\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\trand\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Eclipse Adoptium\jdk-25.0.2.10-hotspot\bin;C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Tool;C:\flutter\bin;C:\Program Files\Docker\Docker\resources\bin;%JAVA_HOME%\bin;C:\Program Files\cursor\resources\app\bin;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\dotnet\;C:\apache-maven-3.9.12-bin\apache-maven-3.9.12\bin;C:\Program Files\Java\jdk-21\bin;C:\Users\trand\AppData\Local\Microsoft\WindowsApps;C:\Users\trand\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\trand\AppData\Roaming\npm;C:\Users\trand\AppData\Local\Programs\mongosh\;C:\Program Files (x86)\MongoDB Atlas CLI\;C:\Tool;C:\Users\trand\AppData\Local\Programs\Kiro\bin;C:\Users\trand\.dotnet\tools;C:\Users\trand\AppData\Local\Python\bin;C:\Users\trand\AppData\Local\Programs\Antigravity\bin;c:\Users\trand\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.9+7-LTS-338"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="apiLoginPreconditionMustPass" classname="bt6.PartAApiPreconditionUiTest" time="0.003">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=pub_0e30a5c7ce45a945c2000c6925cb61a3
+				Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "cityslicka",
+    "email": "eve.holt@reqres.in"
+}
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 08:34:31 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"19a-SdwilsGwcTwLVDJHg//ZVaLP1k8"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=RFmGBobjJ%2B1Q9yTfbC16RQU3dXQNd84sEaIydVnhpD4%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774341271"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=RFmGBobjJ%2B1Q9yTfbC16RQU3dXQNd84sEaIydVnhpD4%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774341271"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 85
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Generate a complete backend from a description - app.reqres.in/dashboard
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:11:20.534Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: 866ed215-8d3a-b87f-396d-48cc0e9681ed
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: DYNAMIC
+Content-Encoding: gzip
+CF-RAY: 9e14564fe81e9b8b-SIN
+
+{
+    "token": "QpwL5tke4Pnpja7X4",
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_b",
+        "message": "Need more than fake data? Projects give you real CRUD + auth in minutes.",
+        "cta": {
+            "label": "Get started",
+            "url": "https://app.reqres.in/upgrade"
+        },
+        "context": "legacy_success"
+    }
+}
+[PartA][API] status=200, token=QpwL5tke4Pnpja7X4
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="uiVerifyAfterApiPrecondition" classname="bt6.PartAApiPreconditionUiTest" time="4.151">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=pub_0e30a5c7ce45a945c2000c6925cb61a3
+				Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "cityslicka",
+    "email": "eve.holt@reqres.in"
+}
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 08:34:32 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"19a-SdwilsGwcTwLVDJHg//ZVaLP1k8"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=O%2F0SbIHSVyflONvJdYzzYelcx9oKPk4JCBD8bn8RaEI%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774341272"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=O%2F0SbIHSVyflONvJdYzzYelcx9oKPk4JCBD8bn8RaEI%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774341272"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 84
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Add real user auth to your app with magic codes - reqres.in/docs
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:11:20.534Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: 5687213a-30a6-4b79-4ca2-422e4667a823
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: DYNAMIC
+Content-Encoding: gzip
+CF-RAY: 9e1456565bba0884-SIN
+
+{
+    "token": "QpwL5tke4Pnpja7X4",
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_b",
+        "message": "Need more than fake data? Projects give you real CRUD + auth in minutes.",
+        "cta": {
+            "label": "Get started",
+            "url": "https://app.reqres.in/upgrade"
+        },
+        "context": "legacy_success"
+    }
+}
+[PartA][API] status=200, token=QpwL5tke4Pnpja7X4
+[UI][SCREENSHOT] Saved: D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT6\target\screenshots\login-page-loaded-20260324-153435-744.png
+[UI][SCREENSHOT] Saved: D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT6\target\screenshots\login-success-inventory-20260324-153436-061.png
+]]></system-out>
+    <system-err><![CDATA[Mar 24, 2026 3:34:33 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 24, 2026 3:34:33 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 146.0.7680.164. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.29.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="fullApiUiIntegrationFlow" classname="bt6.PartBFullIntegrationFlowTest" time="4.407">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=pub_0e30a5c7ce45a945c2000c6925cb61a3
+				Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2026 08:34:37 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: no-store
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Etag: W/"5ba-Hq89QHuVAhWKacAspICIv8xBR2w"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Origin-Agent-Cluster: ?1
+Ratelimit-Limit: 20
+Ratelimit-Policy: 20;w=60
+Ratelimit-Remaining: 19
+Ratelimit-Reset: 60
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=P%2FLQJFw5vHzXWGAmUN4bwEYiRKd93UTATfnVDLOHMCY%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1774341277"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=P%2FLQJFw5vHzXWGAmUN4bwEYiRKd93UTATfnVDLOHMCY%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1774341277"
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 heroku-router
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+X-Ratelimit-Limit: 250
+X-Ratelimit-Remaining: 83
+X-Ratelimit-Reset: 1774396800
+X-Reqres-Docs: https://reqres.in
+X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+X-Reqres-Templates: https://app.reqres.in/templates
+X-Reqres-Tip: Add real user auth to your app with magic codes - reqres.in/docs
+X-Reqres-Trial: true
+X-Reqres-Trial-Days-Remaining: 14
+X-Reqres-Trial-Expires: 2026-04-07T06:11:20.534Z
+X-Reqres-Upgrade: https://app.reqres.in/upgrade
+X-Request-Id: ad8d5320-cccb-b3d1-0b53-bbaf6f1ca458
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 0
+cf-cache-status: BYPASS
+Content-Encoding: gzip
+CF-RAY: 9e145673aaa13f4f-SIN
+
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://benhowdle.im/first-cto-playbook?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Become a better CTO. A playbook of painful stories and practical advice from a two-time startup CTO."
+    },
+    "_meta": {
+        "powered_by": "ReqRes",
+        "docs_url": "https://app.reqres.in/documentation",
+        "upgrade_url": "https://app.reqres.in/upgrade",
+        "example_url": "https://app.reqres.in/examples/notes-app",
+        "variant": "v1_b",
+        "message": "Need more than fake data? Projects give you real CRUD + auth in minutes.",
+        "cta": {
+            "label": "Get started",
+            "url": "https://app.reqres.in/upgrade"
+        },
+        "context": "legacy_success"
+    }
+}
+[PartB][API] GET /users status=200, isApiAlive=true
+[UI][SCREENSHOT] Saved: D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT6\target\screenshots\login-page-loaded-20260324-153440-390.png
+[UI][SCREENSHOT] Saved: D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT6\target\screenshots\login-success-inventory-20260324-153440-683.png
+[UI][SCREENSHOT] Saved: D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT6\target\screenshots\partB-added-2-products-20260324-153440-919.png
+[UI][SCREENSHOT] Saved: D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT6\target\screenshots\partB-badge-equals-2-20260324-153441-069.png
+[UI][SCREENSHOT] Saved: D:\1150080131_TranDuc_CNPM2\Testing\Testing B10\BT6\target\screenshots\partB-cart-has-2-items-20260324-153441-287.png
+]]></system-out>
+    <system-err><![CDATA[Mar 24, 2026 3:34:37 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Mar 24, 2026 3:34:37 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 146.0.7680.164. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.29.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

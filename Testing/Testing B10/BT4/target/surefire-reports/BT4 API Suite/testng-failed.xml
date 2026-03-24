@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BT4 API Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Authorization and Error Handling Tests(failed)" verbose="0">
+    <classes>
+      <class name="bt4.AuthorizationTest">
+        <methods>
+          <include name="testLoginMissingPassword"/>
+          <include name="testRegisterSuccess"/>
+          <include name="testLoginSuccess"/>
+          <include name="testLoginMissingEmail"/>
+          <include name="setupApiSpec"/>
+          <include name="testRegisterMissingPassword"/>
+        </methods>
+      </class> <!-- bt4.AuthorizationTest -->
+      <class name="bt4.LoginDataDrivenTest">
+        <methods>
+          <include name="testLoginScenarios" invocation-numbers="0 1 2 3 4"/>
+          <include name="setupApiSpec"/>
+        </methods>
+      </class> <!-- bt4.LoginDataDrivenTest -->
+    </classes>
+  </test> <!-- Authorization and Error Handling Tests(failed) -->
+</suite> <!-- Failed suite [BT4 API Suite] -->
